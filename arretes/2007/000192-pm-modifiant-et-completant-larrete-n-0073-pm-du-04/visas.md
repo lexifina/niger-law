@@ -1,0 +1,11 @@
+# Visas
+
+REPUBLIQUE DU NIGER CABINET DU PREMIER MINISTRE LE PREMIER MINISTRE, CHEF DU GOUVERNEMENT VU la Constitution du 09 Août 1999;
+VU l'Ordonnance n°99-56 du 22 novembre 1999, déterminant l'Organisation Générale de l'Administration Civile de l'Etat et fixant ses missions;
+VU l'Ordonnance n°99-57 du 22 novembre 1999, déterminant la classification des emplois supérieurs de l'État et les conditions de nomination de leurs titulaires; VU le Décret n° 99-466/PCRN/MFP/T/E du 22 novembre 1999 fixant les modalités d'application de l'Ordonnance n°99-56 du 22 novembre 1999 déterminant l'organisation générale de l'administration civile de l'Etat et fixant ses missions; VU le Décret n° 2007-214/PRN du 03 juin 2007 portant nomination du Premier Ministre; VU le Décret n°2007-216/PRN du 09 juin 2007 portant nomination des membres du Gouvernement ;
+VU le Décret n° 2005-043/PRN/MME du 18 février 2005, déterminant les attributions du Ministre des Mines et de l'Énergie;
+VU le Décret 2005-92/PRN/MME du 22 Avril 2005 portant organisation du Ministère des Mines et de l'Énergie ;
+VU le Décret N°2005-003/PM du 07 janvier 2005, portant organisation des Services du Premier Ministre et fixant leurs attributions, modifié et complété par le décret n°2005- 113/PM du 09 mai 2005 ;
+Vu l'arrêté N°0073/PM du 04 Juillet 2005 portant création, attributions, composition et fonctionnement du dispositif institutionnel de préparation et de suivi de la mise en œuvre de l'ITIE au Niger ;
+Vu la réunion du 28 décembre 2006 relative à l'installation officielle du Comité National de Concertation de l'ITIE-Niger.
+ARRETE ARRETE N° 000192/PM du 10 août 2007 Modifiant et complétant l’arrêté n°0073/PM du juillet portant création, attributions, composition et fonctionnement du dispositif institutionnel de préparation et de suivi de la mise en œuvre de l'Initiative pour la Transparence des Industries Extractives au Niger (EITIN) Article Premier: l’arrêté N°0073/PM du 04 juillet 2005 portant création, attributions, composition et fonctionnement du dispositif institutionnel de préparation et de suivi de la mise en œuvre de l’ITIE au Niger est modifié, en ses articles 2, 5, 9, 11 , 12, 13 et 14, ainsi qu’il suit :
