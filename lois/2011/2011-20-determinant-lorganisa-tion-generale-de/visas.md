@@ -1,0 +1,13 @@
+# Visas
+
+05 décembre 2010 JOURNAL OFFICIEL DE LA REPUBLIQUE DU NIGER MODALITES DE PAIEMENT INSERTION Trois mille (3.000) francs CFA la ligne.
+Un minimum de perception de 30.000 FCFA.
+par annonce sera appliqué pour les insertions.
+Adresser les correspondances, textes à insérer, demandes de renseignements à : JOURNAL OFFICIEL DE LA REPUBLIQUE DU NIGER B.P. 116 NIAMEY Téléphone : 20.72.39.30 / 20.72.20.59 20.20.32.55 paraissant le 1er et le 15 de chaque mois Les abonnements ou réabonnements et les annonces sont payables d'avance. Tout règlement s'effectue exclusivement par mandat postal ou chèque bancaire.
+Pour tout règlement en espèces, une quittance sera fournie. Exigez votre quittance.
+ABONNEMENTS 25.000 FCFA 12.500 FCFA 38.000 FCFA 19.000 FCFA 1.500 FCFA 2.000 FCFA VENTE AU NUMERO JOURNAL OFFICIEL 1 an - { NIGER { 6 mois - 1 an - NIGER ETRANGER 78ème Année REPUBLIQUE DU NIGER 05 décembre 2011 Année antérieure Année courante 1.000 FCFA 1.500 FCFA 6 mois - ETRANGER LOIS Loi n° 2011-20 du 08 août 2011, déterminant l’organisation générale de l’administration civile de l’État et fixant ses missions ....................................................... Loi n° 2011-21 du 08 août 2011, déterminant la classification des emplois supérieurs de l’État et fixant les conditions de nomination de leurs titulaires ..............
+Loi n° 2011-30 du 25 octobre 2011, ratifiant l'ordonnance n° 2011-07 du 16 septembre 2011, portant Régime général des Contrats de partenariat public privé en République du Niger .....................................
+ORDONNANCE Ordonnance n° 2011-07 du 16 septembre 2011, portant Régime général des Contrats de partenariat public privé en République du Niger .............................. ACTES DE L’EXÉCUTIF SERVICES DU PREMIER MINISTRE Décret n° 2011-559/PRN/PM du 09 novembre 2011, portant modalités d’application de l’ordonnance n° 2011-07 du 16 septembre 2011 fixant le Régime général des Contrats de partenariat public privé en République du Niger ....................................................... Décret n° 2011-560/PRN/PM du 09 novembre 2011, portant organisation et fonctionnement de la Cellule d’appui au partenariat public privé en République du Niger ....................................................................... SOMMAIRE PARTIE OFFICIELLE SPECIAL N° 19 05 décembre 2011 JOURNAL OFFICIEL DE LA REPUBLIQUE DU NIGER Loi n°2011-20 du 08 août 2011 déterminant l’organisation générale de l’administration civile de l’État et fixant ses missions Vu la Constitution du 25 novembre 2010 ;
+Le Conseil des ministres entendu L’Assemblée nationale a délibéré et adopté ;
+Le Président de la République promulgue la loi dont la teneur suit :
+Chapitre premier : Des dispositions générales
