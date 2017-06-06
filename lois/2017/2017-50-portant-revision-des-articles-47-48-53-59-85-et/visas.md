@@ -1,0 +1,5 @@
+# Visas
+
+LOI N° 2017-50 du 06 juin 2017 portant révision des articles 47, 48, 53, 59, 85 et 99 de la Constitution du 25 novembre 2010.
+Vu la Constitution du 25 novembre 2010 ;
+LE CONSEIL DES MINISTRES ENTENDU, L’ASSEMBLEE NATIONALE A DELIBERE ET ADOPTE, LE PRESIDENT DE LA REPUBLIQUE PROMULGUE LA LOI DONT LA TENEUR SUIT :
