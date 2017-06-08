@@ -1,0 +1,5 @@
+# Visas
+
+LOI N° 2017-56 du 08 juin 2017 portant révision des articles 84 et 173 de la Constitution du 25 novembre 2010.
+Vu la Constitution du 25 novembre 2010 ;
+LE CONSEIL DES MINISTRES ENTENDU, L’ASSEMBLEE NATIONALE A DELIBERE ET ADOPTE, LE PRESIDENT DE LA REPUBLIQUE PROMULGUE LA LOI DONT LA TENEUR SUIT :
