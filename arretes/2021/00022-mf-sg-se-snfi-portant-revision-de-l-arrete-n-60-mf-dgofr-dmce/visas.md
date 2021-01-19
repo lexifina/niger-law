@@ -1,0 +1,11 @@
+# Visas
+
+REPUBLIQUE DU NIGER Fraternité - Travail - Progrès MINISTERE DES FINANCES SECRETARIAT GENERAL ------------------ SECRÉTA RIAT EXÉCUTIF DE SNFI io-o o 2 2ftJ ARRETE ~ 0 ___ ~F/SG/SE-SNFI ---~ ~ ,...~, du Î9 JÀk 2ntl Portant revIsIon de l'arrêté N°60/MF/DGOFR/DMCE du 23 février 2017, portant création, attributions et composition du Comité National de Suivi de la Mise en Œuvre de la Stratégie Régionale de !'Inclusion Financière dans l'UEMOA LE MINISTRE DES FINANCES, Vu la Constitution du 25 novembre 201 O;
+Vu la loi N°2011-020 du 8 août 2011 , déterminant l'organisation générale de l'administration civile de l'Etat et fixant ses missions ;
+Vu le décret N° 2016- 161/PRN du 02 avril 2016, portant nomination du Premier Ministre, Chef du Gouvernement ;
+Vu le décret N°2016-623/PRN du 14 novembre 2016 portant organisation du Gouvernement et fixant les attributions des Ministres d'Etat, des Ministres et des Ministres Délégués modifié et complété par le décret N°2018-475/PRN du 9 juillet 2018 ;
+Vu le décret n°2016-624/PM du 14 novembre 2016, précisant les attributions des membres du Gouvernement, modifié par le décret N°2018-476/PM du 9 juillet 2018; Vu le décret n° 2018-497/PRN/MF du 20 juillet 2018 portant organisation du Ministère des Finances, modifié par le décret N°2019-598/PRN/MF du 18 octobre 2019 ; Vu le décret N° 2018-907 /PRN/MF du 28 décembre 2018, portant adoption du Document de Stratégie Nationale de Finance Inclusive, révisée et de son Plan d'Actions 2019- 2023 ;
+Vu l'arrêté N°228/MF/SG/SE-SNFI du 23 juin 2020, portant organisation, attributions et modalités de fonctionnement du Secrétariat Exécutif chargé de la mise en œuvre de la Stratégie Nationale de Finance Inclusive (SNFI) ;
+Vu l'arrêté N°60/MF/DGOFR/DMCE du 23 février 2017, portant création, attributions et composition du Comité national de suivi de la mise en œuvre de la Stratégie régionale de l'inclusion financière dans l'UEMOA.
+Sur proposition du Secrétaire Exécutif de la Stratégie Nationale de Finance Inclusive, ARRETE:
+Article Premier: Il est créé auprès du Ministre chargé des Finances, un Comité National de Suivi de la Mise en Œuvre (CNSMO) de la Stratégie Régionale de !'Inclusion Financière (SRIF).
