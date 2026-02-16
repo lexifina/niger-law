@@ -1,1 +1,0 @@
-# Section I : Faux témoignage
