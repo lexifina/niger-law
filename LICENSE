@@ -1,0 +1,27 @@
+The legal texts come from the Government of Niger's portal (www.gouv.ne), Textes fondamentaux, retrieved
+29 October 2026:
+
+  Constitution de la VIIème République (décret n°2010-754/PCSRD du 25 novembre 2010), with the modifications
+  to the loi n°2018-44 du 22 juin 2018.
+
+The portal publishes no licence for these texts. They are the public law of the Republic of Niger, reproduced with
+the attribution above; their copyright status is not confirmed here.
+
+The Code de procédure pénale (loi n° 61-33 du 14 août 1961, as amended by lois n° 2003-026 and 2004-21) is copied
+from the PDF held by UNODC SHERLOC
+(https://sherloc.unodc.org/cld/uploads/res/document/ner/1961/code_de_procedure_penale_html/Niger_CODE_DE_PROCEDURE_PENALE.pdf),
+retrieved on 30 October 2026. The PDF states no licence; it is the text of a law of the Republic of Niger.
+
+The Code du travail (loi n° 2012-45 du 25 septembre 2012) is copied from a PDF published by Droit-Afrique
+(http://www.droit-afrique.com/upload/doc/niger/Niger-Code-2012-du-travail.pdf), as archived by the Internet Archive
+on 15 June 2016, retrieved on 30 October 2026. Credit for the bytes: Droit-Afrique. Niger is a member of the African
+Intellectual Property Organization (OAPI), and Article 6(i) of Annex VII of the Bangui Agreement excludes "les textes
+officiels de nature législative, administrative ou judiciaire" from copyright protection.
+
+Changes made by Lexifina: the PDF text layer was converted to one Markdown file per provision, one paragraph or item
+per line; page numbers were dropped; spacing, quotes and dashes were normalised; amendment notes in article headings
+were left out. The wording of the law was not changed. The Government of Niger does not endorse this repository.
+
+Lexifina's own contributions (the arrangement of the history, the commit messages, the tables and the tools) are
+dedicated to the public domain under CC0 1.0 Universal:
+https://creativecommons.org/publicdomain/zero/1.0/legalcode

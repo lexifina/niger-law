@@ -1,0 +1,61 @@
+{
+ "country": "NE",
+ "acts": [
+  {
+   "slug": "constitution",
+   "short": "Const.",
+   "title": "Constitution de la VIIème République du Niger (décret n°2010-754/PCSRD du 25 novembre 2010), avec les modifications jusqu'à la loi n°2018-44 du 22 juin 2018",
+   "url": "https://www.gouv.ne/index.php/textes-fondamentaux/constitution-de-la-7eme-republique",
+   "versions": [
+    {
+     "from": "2018-06-22",
+     "units": 201,
+     "source_url": "https://www.gouv.ne/images/textes-fondamentaux/constitution.pdf",
+     "sha256": "ebf0360e597e9cbfff9c1f2655b77f84fe5cde6f9b74b8ebb6b19b8177b5e54b"
+    }
+   ]
+  },
+  {
+   "slug": "code-penal",
+   "short": "CP",
+   "title": "Code pénal (loi n°61-27 du 15 juillet 1961), avec la refonte de toutes les modifications jusqu'en janvier 2018",
+   "url": "https://sherloc.unodc.org/cld/uploads/res/document/code-pnal_html/CODE_PENAL_DU_NIGER_2018.pdf",
+   "versions": [
+    {
+     "from": "2018-01-01",
+     "units": 700,
+     "source_url": "https://sherloc.unodc.org/cld/uploads/res/document/code-pnal_html/CODE_PENAL_DU_NIGER_2018.pdf",
+     "sha256": "2adc89cec65c2d7c8636ad86bdd9ae11386cf01845dde47a5f43b344ed83c15c"
+    }
+   ]
+  },
+  {
+   "slug": "code-procedure-penale",
+   "short": "CPP",
+   "title": "Code de procédure pénale (loi n° 61-33 du 14 août 1961), modifié par la loi n° 2003-026 du 13 juin 2003 et la loi n° 2004-21 du 16 mai 2004",
+   "url": "https://sherloc.unodc.org/cld/uploads/res/document/ner/1961/code_de_procedure_penale_html/Niger_CODE_DE_PROCEDURE_PENALE.pdf",
+   "versions": [
+    {
+     "from": "2004-05-16",
+     "units": 749,
+     "source_url": "https://sherloc.unodc.org/cld/uploads/res/document/ner/1961/code_de_procedure_penale_html/Niger_CODE_DE_PROCEDURE_PENALE.pdf",
+     "sha256": "9a5ca7b180e7bdd6d5ee698b54e9b9fe495b46b86ecf1ce7e9fa472dd6b89021"
+    }
+   ]
+  },
+  {
+   "slug": "code-du-travail",
+   "short": "Code du travail",
+   "title": "Loi n° 2012-45 du 25 septembre 2012 portant Code du travail de la République du Niger",
+   "url": "http://www.droit-afrique.com/upload/doc/niger/Niger-Code-2012-du-travail.pdf",
+   "versions": [
+    {
+     "from": "2012-09-25",
+     "units": 365,
+     "source_url": "http://www.droit-afrique.com/upload/doc/niger/Niger-Code-2012-du-travail.pdf",
+     "sha256": "9f3f3e6ecb8a7e5392bdf2975937970984a818be59fd81aabb64a21c6429c6ba"
+    }
+   ]
+  }
+ ]
+}
