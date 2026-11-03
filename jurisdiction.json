@@ -4,8 +4,8 @@
   "name": "Niger",
   "level": "country",
   "repo": "https://github.com/lexifina/niger-law",
-  "build": "built: Constitution of the VIIth Republic as consolidated to 2018 (1 version; suspended in 2023, historical); Code pénal as consolidated to January 2018 (1 version; replaced in 2026); Code de procédure pénale as amended to 2004 (1 version; later amendments not applied); Code du travail 2012 as enacted (1 version)",
+  "build": "built: six one-version texts, with no change history: Constitution consolidated to 2018 (suspended in 2023); Code pénal consolidated to 2018 (replaced in 2026); Code de procédure pénale to 2004; Code du travail as enacted in 2012; charter of political parties to 2019; electoral code to 2019. Later changes are not represented unless named in those source versions.",
   "register": "https://claude.ai/artifact/DdS9F6yqpPZtV2i7FGQhYZ",
   "register_date": "2026-10-28",
-  "sources": 4
+  "sources": 6
 }

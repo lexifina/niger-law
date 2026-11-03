@@ -14,8 +14,10 @@ Language: the official language, French. This README is English first.
 | `code-penal/` | Code pénal (loi n°61-27 du 15 juillet 1961), with all modifications consolidated to January 2018 | 1 | One "oldest version available": the Ministry of Justice edition of January 2018, dated 1 January 2018 (the source gives only the month) |
 | `code-procedure-penale/` | Code de procédure pénale (loi n° 61-33 du 14 août 1961), as amended by loi n° 2003-026 du 13 juin 2003 and loi n° 2004-21 du 16 mai 2004 | 1 | One "oldest version available", dated 16 May 2004 (the last amending law the edition names); later amendments not applied |
 | `code-du-travail/` | Code du travail (loi n° 2012-45 du 25 septembre 2012) | 1 | One "oldest version available": the Code as enacted, dated 25 September 2012; later amendments not applied |
+| `charte-des-partis-politiques/` | Charte des partis politiques (ordonnance n° 2010-84), consolidated through loi n° 2019-25 | 1 | One "oldest version available", dated 17 June 2019, the latest amendment date printed in the Government's PDF |
+| `code-electoral/` | Code électoral (loi organique n° 2017-64), consolidated through loi n° 2019-38 | 1 | One "oldest version available", dated 18 July 2019, the latest amendment date printed in the Government's PDF |
 
-This is a first build. It holds four texts (the Constitution, the Code pénal, the Code de procédure pénale and the Code du travail) and no change history.
+This record holds six texts and no change history. The electoral code and party charter each occupy one full-text file, including the preamble, articles and signatures in the Government's PDF.
 
 ## What it does not show
 
@@ -24,7 +26,7 @@ This is a first build. It holds four texts (the Constitution, the Code pénal, t
 - **The Code pénal is superseded.** It is the Ministry of Justice's consolidated edition of January 2018 (the PDF is hosted by UNODC SHERLOC). The ordonnance n°2026-09 du 16 février 2026 portant institution du Code pénal is reported to have replaced it; that text is not in this record, so the Code pénal here is also not the law in force today. Its amendment notes (for example "(Loi n° 2016-22 du 16 juin 2016)") stay in the paragraphs they introduce. Articles 322 et 323 and 326 à 331 are printed as repealed and each range is one file (`art-322`, `art-326`).
 - **The Code de procédure pénale is an older text.** It is the 1961 Code as amended in 2003 and 2004, from a born-digital PDF hosted by UNODC SHERLOC. Later amendments, including loi n° 2019-55 du 22 novembre 2019, are not applied, so it is not the law in force today. Amendment notes such as "(Loi n° 2003-26 du 13 juin 2003)" stay in the text as printed. The edition does not print articles 310 to 317, 736, 737 and 739 to 741; three orphan lines that close Article 317 are left out. Two misprinted numbers ("Art. 7I7", "Art. 679- l") are filed as `art-717` and `art-679-01`.
 - **The Code du travail is the text as enacted.** It is loi n° 2012-45 of 25 September 2012, from a born-digital copy published by Droit-Afrique (read from an Internet Archive copy of 15 June 2016). Later amendments are not applied, and the regulatory part (décret n° 2017-682/PRN/MET/PS) is not included.
-- **Other law.** Only these four acts. No civil or commercial code was found as an official text online (commercial law is largely the OHADA Uniform Acts). The portal's other pages link to compilations that are scans.
+- **Other law.** No civil or commercial code was found as an official text online (commercial law is largely the OHADA Uniform Acts). The Government portal lists an opposition statute page with no document, an "Autres Textes" page with no document, and a compilation PDF link that does not resolve. These are not part of this record.
 - The notes in article headings naming the amending law are left out of the text. Article 99 appears twice in the source (as amended, and "bis"); the second is `art-099-bis`.
 - This is not legal advice, and it is not an official text.
 
@@ -40,17 +42,17 @@ Files are named by the printed number: `art-047` is Article 47, `art-099-bis` is
 
 ## Dates
 
-Each commit is dated at noon, Africa/Niamey, on the day the version took effect. The single version is dated 22 June 2018, the date of the latest amending law the document names (loi n°2018-44, Article 91). The document gives no entry-into-force dates for the amendments. The original Constitution entered into force on promulgation (Article 183), by décret n°2010-754/PCSRD of 25 November 2010, published in the JORN special issue 19 of 29 November 2010.
+Each commit is dated at noon, Africa/Niamey, on the recorded in-force day. The Constitution's version is dated 22 June 2018, the date of the latest amending law its document names (loi n°2018-44, Article 91). The electoral code and party charter versions are dated by the latest amendments their respective PDFs name. The PDFs do not give separate commencement dates for those amendments. The original Constitution entered into force on promulgation (Article 183), by décret n°2010-754/PCSRD of 25 November 2010, published in the JORN special issue 19 of 29 November 2010.
 
 ## What "author" means
 
-The author of a commit is the law that made the change, at an address that cannot exist. Here the single commit is by the publisher, the Government of Niger's portal, as the **oldest version available**, naming the 2010 décret and the five amending laws.
+The author of a commit is the law that made the change, at an address that cannot exist. A first commit for an "oldest version available" is attributed to the recorded publisher; the Constitution's first commit names the 2010 décret and five amending laws.
 
 ## How it is built
 
 Lexifina reads the sources listed here and records each act's dated versions, and the laws that made each change, in one corpus file. `tools/build.py` writes this repository from that file, and the same corpus always gives the same commit hashes; `REPRODUCE.md` gives the details and the checks. A model (Claude) wrote Lexifina's code; it wrote no legal text, and no model runs when the history is built.
 
-The text comes from the Government of Niger's portal, Textes fondamentaux (https://www.gouv.ne/index.php/textes-fondamentaux/constitution-de-la-7eme-republique), PDF https://www.gouv.ne/images/textes-fondamentaux/constitution.pdf, retrieved 29 October 2026. Only the PDF's own text layer was read; nothing was OCRed. The portal publishes no licence; the law of the Republic is public law, reproduced with this attribution.
+The Constitution text comes from the Government of Niger's portal, Textes fondamentaux (https://www.gouv.ne/index.php/textes-fondamentaux/constitution-de-la-7eme-republique), PDF https://www.gouv.ne/images/textes-fondamentaux/constitution.pdf, retrieved 29 October 2026. The electoral code and party charter come from the same portal's official PDFs, retrieved 3 November 2026. These three PDFs have text layers and no embedded images. The portal publishes no licence; the law of the Republic is public law, reproduced with this attribution.
 
 Changes made by Lexifina: the PDF text was converted to one Markdown file per provision, one paragraph or item per line; page numbers were dropped; spacing, quotes and dashes were normalised; the amendment notes in the article headings were left out. The wording of the law was not changed. The Government of Niger does not endorse this repository.
 
