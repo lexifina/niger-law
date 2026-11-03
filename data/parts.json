@@ -11,6 +11,13 @@
     "code-du-travail"
    ],
    "sha256": "18d544eda80b162e19b2c2e672b42b6cb93950e9364c013306ae9907cf19635b"
+  },
+  "50-electoral-parties.json": {
+   "acts": [
+    "charte-des-partis-politiques",
+    "code-electoral"
+   ],
+   "sha256": "dbe0acc9244a976a349edd78c81670ba22e86bf0a3349a70fa841c43b4bf1863"
   }
  },
  "schema": 1

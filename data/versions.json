@@ -56,6 +56,34 @@
      "sha256": "9f3f3e6ecb8a7e5392bdf2975937970984a818be59fd81aabb64a21c6429c6ba"
     }
    ]
+  },
+  {
+   "slug": "code-electoral",
+   "short": "Code électoral",
+   "title": "Loi organique n° 2017-64 du 14 août 2017 portant Code électoral du Niger, modifiée par la loi n° 2019-38 du 18 juillet 2019",
+   "url": "https://www.gouv.ne/images/textes-fondamentaux/codeelectoral.pdf",
+   "versions": [
+    {
+     "from": "2019-07-18",
+     "units": 1,
+     "source_url": "https://www.gouv.ne/images/textes-fondamentaux/codeelectoral.pdf",
+     "sha256": "3ab0465a402e27cb0077f5fd19206ef39a78d1ed642da6b75a1d6e08e44add38"
+    }
+   ]
+  },
+  {
+   "slug": "charte-des-partis-politiques",
+   "short": "Charte des partis politiques",
+   "title": "Ordonnance n° 2010-84 du 16 décembre 2010 portant charte des partis politiques, modifiée par les lois n° 2011-39 du 7 décembre 2011 et n° 2019-25 du 17 juin 2019",
+   "url": "https://www.gouv.ne/images/textes-fondamentaux/chartepartipolitique.pdf",
+   "versions": [
+    {
+     "from": "2019-06-17",
+     "units": 1,
+     "source_url": "https://www.gouv.ne/images/textes-fondamentaux/chartepartipolitique.pdf",
+     "sha256": "25ec578d6d61315f8c98e5769bf2dc606015cdb0614a1cfd44cb453ac509f78e"
+    }
+   ]
   }
  ]
 }
