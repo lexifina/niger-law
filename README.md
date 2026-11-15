@@ -1,61 +1,91 @@
 # Niger: law history in git
 
+
+The law of Niger as a git history: one file per article, one commit per version on the day it took effect, and the law that made each change as the commit's author. `git blame` names the law behind every line; `git log` lists every change to an article; picking a date gives the text in force that day.
+
 Part of [lexifina/global-law](https://github.com/lexifina/global-law), one git history for every country's law: this is Niger's national law, which global-law reads at `niger/national/acts/`.
 
-The law of Niger as a git history: one file per provision, one commit per law on the day it took effect, and the law that made each change as the commit's author. `git blame` names the law behind every paragraph; `git log` lists every change to a section; `tools/on.py` gives the text in force on any day.
+**What is in it now:** six texts, each in one version and none with a change history yet: the Constitution of 25 November 2010 as amended to 2018 (the preamble, 185 articles and Article 99 bis); the Code pénal in the Ministry of Justice's edition of January 2018; the Code de procédure pénale as amended to 2004 (749 articles); the Code du travail as enacted in 2012 (365 articles); and the Charte des partis politiques and the Code électoral, each as amended to 2019. Each act's `README.md` lists its provisions.
 
-It follows the shared design of [lexifina/global-law](https://github.com/lexifina/global-law), which places it at `ne/`.
+**Not the law in force today.** The Constitution was suspended after the military takeover of 26 July 2023, the Code pénal is reported to have been replaced in 2026, and later amendments to the other texts are not applied (see [What it does not show](#what-it-does-not-show)).
 
-Language: the official language, French. This README is English first.
+Each act has its own folder with one file per article (`code-du-travail/art-116.md` is Article 116 of the Code du travail, on paid leave; `constitution/art-099-bis.md` is Article 99 bis). The Constitution's preamble and title headings are `preamble.md` and `titre-01.md` to `titre-14.md`; the Code pénal's headings are `part-*.md`; the Code électoral and the Charte des partis politiques are each one file, `texte-integral.md`.
 
-**What is in it now**
+The text is in French, as its sources print it. An English translation is not part of this record.
 
-| Folder | Act | Versions | History |
-| --- | --- | ---: | --- |
-| `constitution/` | Constitution de la VIIème République (décret n°2010-754/PCSRD du 25 novembre 2010), with the modifications to the loi n°2018-44 du 22 juin 2018 | 1 | One "oldest version available": the consolidated text the Government's portal prints, dated 22 June 2018 |
-| `code-penal/` | Code pénal (loi n°61-27 du 15 juillet 1961), with all modifications consolidated to January 2018 | 1 | One "oldest version available": the Ministry of Justice edition of January 2018, dated 1 January 2018 (the source gives only the month) |
-| `code-procedure-penale/` | Code de procédure pénale (loi n° 61-33 du 14 août 1961), as amended by loi n° 2003-026 du 13 juin 2003 and loi n° 2004-21 du 16 mai 2004 | 1 | One "oldest version available", dated 16 May 2004 (the last amending law the edition names); later amendments not applied |
-| `code-du-travail/` | Code du travail (loi n° 2012-45 du 25 septembre 2012) | 1 | One "oldest version available": the Code as enacted, dated 25 September 2012; later amendments not applied |
-| `charte-des-partis-politiques/` | Charte des partis politiques (ordonnance n° 2010-84), consolidated through loi n° 2019-25 | 1 | One "oldest version available", dated 17 June 2019, the latest amendment date printed in the Government's PDF |
-| `code-electoral/` | Code électoral (loi organique n° 2017-64), consolidated through loi n° 2019-38 | 1 | One "oldest version available", dated 18 July 2019, the latest amendment date printed in the Government's PDF |
-
-This record holds six texts and no change history. The electoral code and party charter each occupy one full-text file, including the preamble, articles and signatures in the Government's PDF.
-
-## What it does not show
-
-- **It is a historical text.** The Constitution of the VIIth Republic was suspended after the military takeover of 26 July 2023 and has been replaced by the transition's own texts. Nothing after 2018 is here, and **this repository is not the law in force today.**
-- **Earlier wording is not shown.** The portal's PDF prints the 2010 Constitution with the changes of 2011 (loi n°2011-17 and loi n°2011-43), 2017 (loi n°2017-50 and loi n°2017-56) and 2018 (loi n°2018-44) already in place, and gives no earlier wording of the changed articles. These laws are named as the earlier laws in the first commit.
-- **The Code pénal is superseded.** It is the Ministry of Justice's consolidated edition of January 2018 (the PDF is hosted by UNODC SHERLOC). The ordonnance n°2026-09 du 16 février 2026 portant institution du Code pénal is reported to have replaced it; that text is not in this record, so the Code pénal here is also not the law in force today. Its amendment notes (for example "(Loi n° 2016-22 du 16 juin 2016)") stay in the paragraphs they introduce. Articles 322 et 323 and 326 à 331 are printed as repealed and each range is one file (`art-322`, `art-326`).
-- **The Code de procédure pénale is an older text.** It is the 1961 Code as amended in 2003 and 2004, from a born-digital PDF hosted by UNODC SHERLOC. Later amendments, including loi n° 2019-55 du 22 novembre 2019, are not applied, so it is not the law in force today. Amendment notes such as "(Loi n° 2003-26 du 13 juin 2003)" stay in the text as printed. The edition does not print articles 310 to 317, 736, 737 and 739 to 741; three orphan lines that close Article 317 are left out. Two misprinted numbers ("Art. 7I7", "Art. 679- l") are filed as `art-717` and `art-679-01`.
-- **The Code du travail is the text as enacted.** It is loi n° 2012-45 of 25 September 2012, from a born-digital copy published by Droit-Afrique (read from an Internet Archive copy of 15 June 2016). Later amendments are not applied, and the regulatory part (décret n° 2017-682/PRN/MET/PS) is not included.
-- **Other law.** No civil or commercial code was found as an official text online (commercial law is largely the OHADA Uniform Acts). The Government portal lists an opposition statute page with no document, an "Autres Textes" page with no document, and a compilation PDF link that does not resolve. These are not part of this record.
-- The notes in article headings naming the amending law are left out of the text. Article 99 appears twice in the source (as amended, and "bis"); the second is `art-099-bis`.
-- This is not legal advice, and it is not an official text.
-
-## A lawyer's questions as git commands
+## Questions as git commands
 
 | Question | Command |
 | --- | --- |
-| Article 47 as printed | `python tools/on.py 2018-06-22 constitution art-047` |
-| Who wrote each line of Article 47? | `git blame constitution/art-047.md` |
-| Every law in the record, in order | `git log --reverse --format="%ad %an" --date=short main` |
+| Every change to Article 116 of the Code du travail (paid leave) | `git log -p --word-diff -- code-du-travail/art-116.md` |
+| Which law wrote each line of Article 116? | `git blame code-du-travail/art-116.md` |
+| Every version of Article 116, with the day each took effect | `git log --format="%h %(trailers:key=In-force,valueonly,separator=) %an" -- code-du-travail/art-116.md` |
+| Article 116 on 1 January 2015, as this record holds it | `python tools/on.py 2015-01-01 code-du-travail art-116` |
 
-Files are named by the printed number: `art-047` is Article 47, `art-099-bis` is Article 99 bis, `titre-03` is Titre III, and `preamble` is the Préambule.
+**Outside git**, we also host this record publicly, for free:
+
+- **[Ask Claude about the law of Niger](https://global-law.lexifina.com/v1/try_claude?country=niger)**: opens Claude with a first question ready.
+- **[Ask ChatGPT](https://global-law.lexifina.com/v1/try_chatgpt?country=niger)**: the same question in ChatGPT.
+- **[Call the API in your browser](https://global-law.lexifina.com/v1/search_law?query=cong%C3%A9+pay%C3%A9&jurisdictions=niger)**: a search of the law of Niger for "congé payé" (paid leave), returned as JSON. See the [documentation here](https://lexifina.com/api/global-law).
+
+Both assistants read the record through the free Global law connector (MCP, `https://global-law.lexifina.com/mcp`); the first time, the chat gives you the link that adds it. Ask in French or in English.
+
+**Host it yourself easily.** All it takes is git and Python, and the tools run on your machine:
+
+```sh
+git clone --depth 1 https://github.com/lexifina/global-law && cd global-law
+python3 tools/countries.py add niger/national/acts
+python3 tools/law.py show 2026-01-01 niger/national/acts/code-du-travail/art-116.md
+```
+
+Opened in Claude Code, Cursor, VS Code or Codex, the clone also starts a local MCP server with the same tools ([MCP.md](https://github.com/lexifina/global-law/blob/main/MCP.md)).
 
 ## Dates
 
-Each commit is dated at noon, Africa/Niamey, on the recorded in-force day. The Constitution's version is dated 22 June 2018, the date of the latest amending law its document names (loi n°2018-44, Article 91). The electoral code and party charter versions are dated by the latest amendments their respective PDFs name. The PDFs do not give separate commencement dates for those amendments. The original Constitution entered into force on promulgation (Article 183), by décret n°2010-754/PCSRD of 25 November 2010, published in the JORN special issue 19 of 29 November 2010.
+Each commit is dated at noon, Africa/Niamey, on the day the version took effect, and carries it in its `In-force:` trailer. No source gives a commencement date for its version, so:
 
-## What "author" means
+- the Constitution is dated 22 June 2018, the date of loi n°2018-44, the last amending law it names; the Code de procédure pénale 16 May 2004, the date of loi n° 2004-21, likewise;
+- the Code du travail is dated 25 September 2012, the date of loi n° 2012-45 (its Article 365 only orders publication in the Journal officiel);
+- the Code électoral and the Charte des partis politiques are dated by the latest amendment their PDFs print (18 July 2019 and 17 June 2019);
+- the Code pénal is dated 1 January 2018: its edition gives only the month.
 
-The author of a commit is the law that made the change, at an address that cannot exist. A first commit for an "oldest version available" is attributed to the recorded publisher; the Constitution's first commit names the 2010 décret and five amending laws.
+Each version is the "oldest version available", credited to the publisher the repository records, the Gouvernement du Niger (gouv.ne), Textes fondamentaux, including the three texts taken from UNODC SHERLOC and Droit-Afrique; its commit message names the laws the source says produced the text (the Constitution's names the 2010 promulgation décret and five amending laws). The committer is always Lexifina.
 
-## How it is built
+## How it is checked
 
-Lexifina reads the sources listed here and records each act's dated versions, and the laws that made each change, in one corpus file. `tools/build.py` writes this repository from that file, and the same corpus always gives the same commit hashes; `REPRODUCE.md` gives the details and the checks. A model (Claude) wrote Lexifina's code; it wrote no legal text, and no model runs when the history is built.
+- `tools/check_repo.py` reads every version back from git on the day it took effect and on the day before, and both must match the corpus the history was built from; it also checks that every commit's trailers parse, that there are no merge commits and that no commit date goes backwards or lies in the future.
+- `tools/build.py` writes the history from that corpus in one pass; a second build into an empty folder gave identical hashes. The results are in [`REPRODUCE.md`](REPRODUCE.md), and [`data/corpus.sha256`](data/corpus.sha256) gives the corpus's hash.
+- The text is the PDFs' own text layer, not a transcription. [`LICENSE`](LICENSE) lists what was changed (layout, page numbers, spacing, quotes and dashes; amendment notes in article headings left out), and `REPRODUCE.md` each act's decisions by hand.
 
-The Constitution text comes from the Government of Niger's portal, Textes fondamentaux (https://www.gouv.ne/index.php/textes-fondamentaux/constitution-de-la-7eme-republique), PDF https://www.gouv.ne/images/textes-fondamentaux/constitution.pdf, retrieved 29 October 2026. The electoral code and party charter come from the same portal's official PDFs, retrieved 3 November 2026. These three PDFs have text layers and no embedded images. The portal publishes no licence; the law of the Republic is public law, reproduced with this attribution.
+## What it does not show
 
-Changes made by Lexifina: the PDF text was converted to one Markdown file per provision, one paragraph or item per line; page numbers were dropped; spacing, quotes and dashes were normalised; the amendment notes in the article headings were left out. The wording of the law was not changed. The Government of Niger does not endorse this repository.
+- **The law in force today.** The Constitution of the VIIth Republic was suspended after 26 July 2023 and replaced by the transition's own texts. The ordonnance n°2026-09 du 16 février 2026 portant institution du Code pénal is reported to have replaced the Code pénal; its text is not here.
+- **Later amendments.** The Code de procédure pénale lacks those after 2004 (among them loi n° 2019-55 du 22 novembre 2019); the Code du travail those after 2012, and its regulatory part (décret n° 2017-682/PRN/MET/PS).
+- **Earlier wording.** The Constitution comes with the changes of 2011, 2017 and 2018 already in place; the portal gives no earlier wording of the changed articles.
+- **Articles the editions do not print.** The Code de procédure pénale skips articles 310 to 317, 736, 737 and 739 to 741; two misprinted numbers are filed as `art-717` and `art-679-01`.
+- **Other law.** No civil or commercial code was found online as an official text (commercial law is largely the OHADA Uniform Acts), and there is no case law.
 
-Lexifina's own contributions (the arrangement of the history, the commit messages, the tables and the tools) are dedicated to the public domain under CC0 1.0 Universal: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+## Sources
+
+| Source | Kind | Past versions | Notes |
+| --- | --- | --- | --- |
+| [gouv.ne](https://www.gouv.ne), Textes fondamentaux (Gouvernement du Niger) | Government portal: official PDFs | no, one consolidated text each | The Constitution (to 2018), the Code électoral and the Charte des partis politiques (to 2019) |
+| [UNODC SHERLOC](https://sherloc.unodc.org) | Copies of national PDFs | no, one edition each | The Code pénal (Ministry of Justice edition, January 2018) and the Code de procédure pénale (to 2004) |
+| [Droit-Afrique](http://web.archive.org/web/20160615103820/http://www.droit-afrique.com:80/upload/doc/niger/Niger-Code-2012-du-travail.pdf) (Internet Archive copy of 15 June 2016) | Publisher of African law texts | no, the Code as enacted | The Code du travail of 2012 |
+
+## Licence
+
+See [`LICENSE`](LICENSE). The legal texts are the public law of the Republic of Niger, reproduced with attribution to each source; no source states a licence, and Article 6(i) of Annex VII of the Bangui Agreement, which applies in Niger as an OAPI member, excludes official legislative texts from copyright. The history, commit messages, tables and tools are CC0 1.0.
+
+No AI model wrote, translated or corrected legal text, and none runs when the history is built; the scripts were written by an AI model (see [`REPRODUCE.md`](REPRODUCE.md)).
+
+## More
+
+From [lexifina/global-law](https://github.com/lexifina/global-law):
+
+- [FEATURES.md](https://github.com/lexifina/global-law/blob/main/FEATURES.md): every feature, and what every corpus must support (`git blame`, `law.py`, the MCP tools)
+- [FAQ.md](https://github.com/lexifina/global-law/blob/main/FAQ.md): questions and answers · [CONTRIBUTING.md](https://github.com/lexifina/global-law/blob/main/CONTRIBUTING.md): proposing changes · [MCP.md](https://github.com/lexifina/global-law/blob/main/MCP.md): the MCP server · [REPRODUCE.md](https://github.com/lexifina/global-law/blob/main/REPRODUCE.md): how it was built · [CHANGELOG.md](https://github.com/lexifina/global-law/blob/main/CHANGELOG.md)
+- [FRESHNESS.md](https://github.com/lexifina/global-law/blob/main/FRESHNESS.md): how current each corpus is · [Monitoring](https://github.com/lexifina/global-law/tree/main/monitoring): whether updates are running · [WATCHING.md](https://github.com/lexifina/global-law/blob/main/WATCHING.md): how each official source is watched for changes
+- [performance/](https://github.com/lexifina/global-law/tree/main/performance): how fast the tools are, measured
+- [visualisations/](https://github.com/lexifina/global-law/tree/main/visualisations): charts and bridges across the world's law
+- [Vulnerabilities](https://github.com/lexifina/global-law/tree/main/vulnerabilities): mistakes in legislation as published
