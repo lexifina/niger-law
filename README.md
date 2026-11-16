@@ -1,37 +1,43 @@
-# Niger: law history in git
+# Niger : l’histoire du droit dans git
 
+**Français** · [English](README.en.md)
 
-The law of Niger as a git history: one file per article, one commit per version on the day it took effect, and the law that made each change as the commit's author. `git blame` names the law behind every line; `git log` lists every change to an article; picking a date gives the text in force that day.
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="data/fr/effort-dark.svg">
+<img alt="Le droit nigérien dans ce dépôt : ce qu’il contient, les modifications par année d’entrée en vigueur, l’exhaustivité au regard des sources officielles et l’exactitude de son contenu" src="data/fr/effort-light.svg" width="880">
+</picture>
 
-Part of [lexifina/global-law](https://github.com/lexifina/global-law), one git history for every country's law: this is Niger's national law, which global-law reads at `niger/national/acts/`.
+Le droit du Niger sous la forme d’un historique git : un fichier par article, un commit par version à la date de son entrée en vigueur, et la loi auteur de chaque modification comme auteur du commit. `git blame` indique la loi à l’origine de chaque ligne ; `git log` liste toutes les modifications d’un article ; le choix d’une date donne le texte en vigueur ce jour-là.
 
-**What is in it now:** six texts, each in one version and none with a change history yet: the Constitution of 25 November 2010 as amended to 2018 (the preamble, 185 articles and Article 99 bis); the Code pénal in the Ministry of Justice's edition of January 2018; the Code de procédure pénale as amended to 2004 (749 articles); the Code du travail as enacted in 2012 (365 articles); and the Charte des partis politiques and the Code électoral, each as amended to 2019. Each act's `README.md` lists its provisions.
+Fait partie de [lexifina/global-law](https://github.com/lexifina/global-law), un historique git unique pour le droit de tous les pays : il s’agit ici du droit national du Niger, que global-law lit sous `niger/national/acts/`.
 
-**Not the law in force today.** The Constitution was suspended after the military takeover of 26 July 2023, the Code pénal is reported to have been replaced in 2026, and later amendments to the other texts are not applied (see [What it does not show](#what-it-does-not-show)).
+**Contenu actuel :** six textes, chacun en une version et aucun n’ayant encore d’historique de modifications : la Constitution du 25 novembre 2010 telle que modifiée jusqu’en 2018 (le préambule, 185 articles et l’article 99 bis) ; le Code pénal dans l’édition du Ministère de la Justice de janvier 2018 ; le Code de procédure pénale tel que modifié jusqu’en 2004 (749 articles) ; le Code du travail tel qu’adopté en 2012 (365 articles) ; et la Charte des partis politiques et le Code électoral, chacun tel que modifié jusqu’en 2019. Le `README.md` de chaque texte liste ses dispositions.
 
-Each act has its own folder with one file per article (`code-du-travail/art-116.md` is Article 116 of the Code du travail, on paid leave; `constitution/art-099-bis.md` is Article 99 bis). The Constitution's preamble and title headings are `preamble.md` and `titre-01.md` to `titre-14.md`; the Code pénal's headings are `part-*.md`; the Code électoral and the Charte des partis politiques are each one file, `texte-integral.md`.
+**Ce n’est pas le droit en vigueur aujourd’hui.** La Constitution a été suspendue après la prise du pouvoir par les militaires le 26 juillet 2023, le Code pénal aurait été remplacé en 2026, et les modifications ultérieures des autres textes ne sont pas appliquées (voir [Ce qu’il ne montre pas](#ce-quil-ne-montre-pas)).
 
-The text is in French, as its sources print it. An English translation is not part of this record.
+Chaque texte a son propre dossier avec un fichier par article (`code-du-travail/art-116.md` est l’article 116 du Code du travail, relatif aux congés payés ; `constitution/art-099-bis.md` est l’article 99 bis). Le préambule et les intitulés des titres de la Constitution sont `preamble.md` et `titre-01.md` à `titre-14.md` ; les intitulés du Code pénal sont les fichiers `part-*.md` ; le Code électoral et la Charte des partis politiques tiennent chacun en un seul fichier, `texte-integral.md`.
 
-## Questions as git commands
+Le texte est en français, tel que ses sources l’impriment. Une traduction anglaise ne fait pas partie de ce corpus.
 
-| Question | Command |
+## Questions sous forme de commandes git
+
+| Question | Commande |
 | --- | --- |
-| Every change to Article 116 of the Code du travail (paid leave) | `git log -p --word-diff -- code-du-travail/art-116.md` |
-| Which law wrote each line of Article 116? | `git blame code-du-travail/art-116.md` |
-| Every version of Article 116, with the day each took effect | `git log --format="%h %(trailers:key=In-force,valueonly,separator=) %an" -- code-du-travail/art-116.md` |
-| Article 116 on 1 January 2015, as this record holds it | `python tools/on.py 2015-01-01 code-du-travail art-116` |
+| Toutes les modifications de l’article 116 du Code du travail (congés payés) | `git log -p --word-diff -- code-du-travail/art-116.md` |
+| Quelle loi a rédigé chaque ligne de l’article 116 ? | `git blame code-du-travail/art-116.md` |
+| Toutes les versions de l’article 116, avec la date d’entrée en vigueur de chacune | `git log --format="%h %(trailers:key=In-force,valueonly,separator=) %an" -- code-du-travail/art-116.md` |
+| L’article 116 au 1er janvier 2015, tel que ce corpus le contient | `python tools/on.py 2015-01-01 code-du-travail art-116` |
 
-**Outside git**, we also host this record publicly, for free:
+**En dehors de git**, nous hébergeons aussi ce corpus publiquement, gratuitement :
 
-- **[Ask Claude about the law of Niger](https://global-law.lexifina.com/v1/try_claude?country=niger)**: opens Claude with a first question ready.
-- **[Ask ChatGPT](https://global-law.lexifina.com/v1/try_chatgpt?country=niger)**: the same question in ChatGPT.
-- **[Search the law of Niger on our site](https://lexifina.com/law?country=niger&q=cong%C3%A9+pay%C3%A9)**: a search for "congé payé" (paid leave), with each provision's text and its versions, no account needed.
-- **[Developer REST API](https://global-law.lexifina.com/v1/search_law?query=cong%C3%A9+pay%C3%A9&jurisdiction=niger)**: the same search as JSON, with no key. See the [documentation here](https://lexifina.com/api/global-law).
+- **[Interroger Claude sur le droit du Niger](https://global-law.lexifina.com/v1/try_claude?country=niger)** : ouvre Claude avec une première question prête.
+- **[Interroger ChatGPT](https://global-law.lexifina.com/v1/try_chatgpt?country=niger)** : la même question dans ChatGPT.
+- **[Rechercher dans le droit du Niger sur notre site](https://lexifina.com/law?country=niger&q=cong%C3%A9+pay%C3%A9)** : une recherche de « congé payé », avec le texte de chaque disposition et ses versions, sans compte.
+- **[API REST pour développeurs](https://global-law.lexifina.com/v1/search_law?query=cong%C3%A9+pay%C3%A9&jurisdiction=niger)** : la même recherche au format JSON, sans clé. Voir la [documentation ici](https://lexifina.com/api/global-law).
 
-Both assistants read the record through the free Global law connector (MCP, `https://global-law.lexifina.com/mcp`); the first time, the chat gives you the link that adds it. Ask in French or in English.
+Les deux assistants lisent le corpus au moyen du connecteur gratuit Global law (MCP, `https://global-law.lexifina.com/mcp`) ; la première fois, la conversation vous donne le lien qui l’ajoute. Posez vos questions en français ou en anglais.
 
-**Host it yourself easily.** All it takes is git and Python, and the tools run on your machine:
+**L’héberger vous-même, simplement.** Il suffit de git et de Python, et les outils s’exécutent sur votre machine :
 
 ```sh
 git clone --depth 1 https://github.com/lexifina/global-law && cd global-law
@@ -39,54 +45,56 @@ python3 tools/countries.py add niger/national/acts
 python3 tools/law.py show 2026-01-01 niger/national/acts/code-du-travail/art-116.md
 ```
 
-Opened in Claude Code, Cursor, VS Code or Codex, the clone also starts a local MCP server with the same tools ([MCP.md](https://github.com/lexifina/global-law/blob/main/MCP.md)).
+Ouvert dans Claude Code, Cursor, VS Code ou Codex, le clone démarre aussi un serveur MCP local doté des mêmes outils ([MCP.md](https://github.com/lexifina/global-law/blob/main/MCP.md)).
 
 ## Dates
 
-Each commit is dated at noon, Africa/Niamey, on the day the version took effect, and carries it in its `In-force:` trailer. No source gives a commencement date for its version, so:
+Chaque commit est daté à midi, heure Africa/Niamey, du jour où la version est entrée en vigueur, et porte cette date dans son trailer `In-force:`. Aucune source ne donnant de date d’entrée en vigueur pour sa version :
 
-- the Constitution is dated 22 June 2018, the date of loi n°2018-44, the last amending law it names; the Code de procédure pénale 16 May 2004, the date of loi n° 2004-21, likewise;
-- the Code du travail is dated 25 September 2012, the date of loi n° 2012-45 (its Article 365 only orders publication in the Journal officiel);
-- the Code électoral and the Charte des partis politiques are dated by the latest amendment their PDFs print (18 July 2019 and 17 June 2019);
-- the Code pénal is dated 1 January 2018: its edition gives only the month.
+- la Constitution est datée du 22 juin 2018, date de la loi n°2018-44, dernière loi modificative qu’elle cite ; le Code de procédure pénale du 16 mai 2004, date de la loi n° 2004-21, selon la même règle ;
+- le Code du travail est daté du 25 septembre 2012, date de la loi n° 2012-45 (son article 365 ne fait qu’ordonner la publication au Journal officiel) ;
+- le Code électoral et la Charte des partis politiques sont datés de la dernière modification qu’impriment leurs PDF (18 juillet 2019 et 17 juin 2019) ;
+- le Code pénal est daté du 1er janvier 2018 : son édition ne donne que le mois.
 
-Each version is the "oldest version available", credited to the publisher the repository records, the Gouvernement du Niger (gouv.ne), Textes fondamentaux, including the three texts taken from UNODC SHERLOC and Droit-Afrique; its commit message names the laws the source says produced the text (the Constitution's names the 2010 promulgation décret and five amending laws). The committer is always Lexifina.
+Chaque version est la « plus ancienne version disponible », attribuée à l’éditeur que consigne le dépôt, le Gouvernement du Niger (gouv.ne), Textes fondamentaux, y compris pour les trois textes tirés d’UNODC SHERLOC et de Droit-Afrique ; son message de commit désigne les lois dont, selon la source, le texte est issu (celui de la Constitution cite le décret de promulgation de 2010 et cinq lois modificatives). Le committer est toujours Lexifina.
 
-## How it is checked
+## Méthode de vérification
 
-- `tools/check_repo.py` reads every version back from git on the day it took effect and on the day before, and both must match the corpus the history was built from; it also checks that every commit's trailers parse, that there are no merge commits and that no commit date goes backwards or lies in the future.
-- `tools/build.py` writes the history from that corpus in one pass; a second build into an empty folder gave identical hashes. The results are in [`REPRODUCE.md`](REPRODUCE.md), and [`data/corpus.sha256`](data/corpus.sha256) gives the corpus's hash.
-- The text is the PDFs' own text layer, not a transcription. [`LICENSE`](LICENSE) lists what was changed (layout, page numbers, spacing, quotes and dashes; amendment notes in article headings left out), and `REPRODUCE.md` each act's decisions by hand.
+- `tools/check_repo.py` relit chaque version dans git le jour de son entrée en vigueur et la veille, et les deux doivent correspondre au corpus à partir duquel l’historique a été construit ; il vérifie aussi que les trailers de chaque commit sont analysables, l’absence de commits de fusion et qu’aucune date de commit ne recule ni ne se situe dans le futur.
+- `tools/build.py` écrit l’historique à partir de ce corpus en une seule passe ; une seconde construction dans un dossier vide a donné des empreintes identiques. Les résultats figurent dans [`REPRODUCE.md`](REPRODUCE.md), et [`data/corpus.sha256`](data/corpus.sha256) donne l’empreinte du corpus.
+- Le texte est la couche texte propre des PDF, et non une transcription. [`LICENSE`](LICENSE) liste ce qui a été modifié (mise en page, numéros de page, espacement, guillemets et tirets ; notes de modification dans les intitulés d’articles omises), et `REPRODUCE.md` les choix faits manuellement pour chaque texte.
 
-## What it does not show
+## Ce qu’il ne montre pas
 
-- **The law in force today.** The Constitution of the VIIth Republic was suspended after 26 July 2023 and replaced by the transition's own texts. The ordonnance n°2026-09 du 16 février 2026 portant institution du Code pénal is reported to have replaced the Code pénal; its text is not here.
-- **Later amendments.** The Code de procédure pénale lacks those after 2004 (among them loi n° 2019-55 du 22 novembre 2019); the Code du travail those after 2012, and its regulatory part (décret n° 2017-682/PRN/MET/PS).
-- **Earlier wording.** The Constitution comes with the changes of 2011, 2017 and 2018 already in place; the portal gives no earlier wording of the changed articles.
-- **Articles the editions do not print.** The Code de procédure pénale skips articles 310 to 317, 736, 737 and 739 to 741; two misprinted numbers are filed as `art-717` and `art-679-01`.
-- **Other law.** No civil or commercial code was found online as an official text (commercial law is largely the OHADA Uniform Acts), and there is no case law.
+- **Le droit en vigueur aujourd’hui.** La Constitution de la VIIe République a été suspendue après le 26 juillet 2023 et remplacée par les textes propres à la transition. L’ordonnance n°2026-09 du 16 février 2026 portant institution du Code pénal aurait remplacé le Code pénal ; son texte ne figure pas ici.
+- **Les modifications ultérieures.** Le Code de procédure pénale ne comporte pas celles postérieures à 2004 (parmi lesquelles la loi n° 2019-55 du 22 novembre 2019) ; le Code du travail, celles postérieures à 2012, ni sa partie réglementaire (décret n° 2017-682/PRN/MET/PS).
+- **Les rédactions antérieures.** La Constitution intègre déjà les modifications de 2011, 2017 et 2018 ; le portail ne donne aucune rédaction antérieure des articles modifiés.
+- **Les articles que les éditions n’impriment pas.** Le Code de procédure pénale omet les articles 310 à 317, 736, 737 et 739 à 741 ; deux numéros mal imprimés sont classés sous `art-717` et `art-679-01`.
+- **Les autres textes.** Aucun code civil ni code de commerce n’a été trouvé en ligne sous forme de texte officiel (le droit commercial relève en grande partie des Actes uniformes de l’OHADA), et il n’y a pas de jurisprudence.
 
 ## Sources
 
-| Source | Kind | Past versions | Notes |
+| Source | Nature | Versions antérieures | Remarques |
 | --- | --- | --- | --- |
-| [gouv.ne](https://www.gouv.ne), Textes fondamentaux (Gouvernement du Niger) | Government portal: official PDFs | no, one consolidated text each | The Constitution (to 2018), the Code électoral and the Charte des partis politiques (to 2019) |
-| [UNODC SHERLOC](https://sherloc.unodc.org) | Copies of national PDFs | no, one edition each | The Code pénal (Ministry of Justice edition, January 2018) and the Code de procédure pénale (to 2004) |
-| [Droit-Afrique](http://web.archive.org/web/20160615103820/http://www.droit-afrique.com:80/upload/doc/niger/Niger-Code-2012-du-travail.pdf) (Internet Archive copy of 15 June 2016) | Publisher of African law texts | no, the Code as enacted | The Code du travail of 2012 |
+| [gouv.ne](https://www.gouv.ne), Textes fondamentaux (Gouvernement du Niger) | Portail gouvernemental : PDF officiels | non, un texte consolidé chacun | La Constitution (jusqu’en 2018), le Code électoral et la Charte des partis politiques (jusqu’en 2019) |
+| [UNODC SHERLOC](https://sherloc.unodc.org) | Copies de PDF nationaux | non, une édition chacun | Le Code pénal (édition du Ministère de la Justice, janvier 2018) et le Code de procédure pénale (jusqu’en 2004) |
+| [Droit-Afrique](http://web.archive.org/web/20160615103820/http://www.droit-afrique.com:80/upload/doc/niger/Niger-Code-2012-du-travail.pdf) (copie de l’Internet Archive du 15 juin 2016) | Éditeur de textes juridiques africains | non, le Code tel qu’adopté | Le Code du travail de 2012 |
 
 ## Licence
 
-See [`LICENSE`](LICENSE). The legal texts are the public law of the Republic of Niger, reproduced with attribution to each source; no source states a licence, and Article 6(i) of Annex VII of the Bangui Agreement, which applies in Niger as an OAPI member, excludes official legislative texts from copyright. The history, commit messages, tables and tools are CC0 1.0.
+Voir [`LICENSE`](LICENSE). Les textes juridiques relèvent du droit public de la République du Niger et sont reproduits avec mention de chaque source ; aucune source n’indique de licence, et l’article 6(i) de l’Annexe VII de l’Accord de Bangui, applicable au Niger en tant que membre de l’OAPI, exclut les textes législatifs officiels de la protection du droit d’auteur. L’historique, les messages de commit, les tableaux et les outils sont sous licence CC0 1.0.
 
-No AI model wrote, translated or corrected legal text, and none runs when the history is built; the scripts were written by an AI model (see [`REPRODUCE.md`](REPRODUCE.md)).
+Aucun modèle d’IA n’a rédigé, traduit ni corrigé de texte juridique, et aucun ne s’exécute lors de la construction de l’historique ; les scripts ont été écrits par un modèle d’IA (voir [`REPRODUCE.md`](REPRODUCE.md)).
 
-## More
+Ceci est une traduction de la version anglaise ([README.en.md](README.en.md)) ; en cas de divergence, la version anglaise fait foi.
 
-From [lexifina/global-law](https://github.com/lexifina/global-law):
+## En savoir plus
 
-- [FEATURES.md](https://github.com/lexifina/global-law/blob/main/FEATURES.md): every feature, and what every corpus must support (`git blame`, `law.py`, the MCP tools)
-- [FAQ.md](https://github.com/lexifina/global-law/blob/main/FAQ.md): questions and answers · [CONTRIBUTING.md](https://github.com/lexifina/global-law/blob/main/CONTRIBUTING.md): proposing changes · [MCP.md](https://github.com/lexifina/global-law/blob/main/MCP.md): the MCP server · [REPRODUCE.md](https://github.com/lexifina/global-law/blob/main/REPRODUCE.md): how it was built · [CHANGELOG.md](https://github.com/lexifina/global-law/blob/main/CHANGELOG.md)
-- [FRESHNESS.md](https://github.com/lexifina/global-law/blob/main/FRESHNESS.md): how current each corpus is · [Monitoring](https://github.com/lexifina/global-law/tree/main/monitoring): whether updates are running · [WATCHING.md](https://github.com/lexifina/global-law/blob/main/WATCHING.md): how each official source is watched for changes
-- [performance/](https://github.com/lexifina/global-law/tree/main/performance): how fast the tools are, measured
-- [visualisations/](https://github.com/lexifina/global-law/tree/main/visualisations): charts and bridges across the world's law
-- [Vulnerabilities](https://github.com/lexifina/global-law/tree/main/vulnerabilities): mistakes in legislation as published
+Dans le dépôt [lexifina/global-law](https://github.com/lexifina/global-law) (pages en anglais) :
+
+- [FEATURES.md](https://github.com/lexifina/global-law/blob/main/FEATURES.md): toutes les fonctionnalités et ce que chaque corpus doit prendre en charge (`git blame`, `law.py`, outils MCP)
+- [FAQ.md](https://github.com/lexifina/global-law/blob/main/FAQ.md): questions et réponses · [CONTRIBUTING.md](https://github.com/lexifina/global-law/blob/main/CONTRIBUTING.md): proposer une modification · [MCP.md](https://github.com/lexifina/global-law/blob/main/MCP.md): serveur MCP · [REPRODUCE.md](https://github.com/lexifina/global-law/blob/main/REPRODUCE.md): comment il a été construit · [CHANGELOG.md](https://github.com/lexifina/global-law/blob/main/CHANGELOG.md)
+- [FRESHNESS.md](https://github.com/lexifina/global-law/blob/main/FRESHNESS.md): à quel point chaque corpus est à jour · [Surveillance](https://github.com/lexifina/global-law/tree/main/monitoring): si les mises à jour fonctionnent · [WATCHING.md](https://github.com/lexifina/global-law/blob/main/WATCHING.md): comment chaque source officielle est surveillée pour repérer les modifications
+- [performance/](https://github.com/lexifina/global-law/tree/main/performance): la rapidité des outils, mesurée
+- [visualisations/](https://github.com/lexifina/global-law/tree/main/visualisations): graphiques et liens à travers le droit du monde entier
+- [Vulnérabilités](https://github.com/lexifina/global-law/tree/main/vulnerabilities): erreurs dans les textes tels qu’ils ont été publiés
