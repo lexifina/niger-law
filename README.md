@@ -63,6 +63,7 @@ Chaque version est la « plus ancienne version disponible », attribuée à l�
 - `tools/check_repo.py` relit chaque version dans git le jour de son entrée en vigueur et la veille, et les deux doivent correspondre au corpus à partir duquel l’historique a été construit ; il vérifie aussi que les trailers de chaque commit sont analysables, l’absence de commits de fusion et qu’aucune date de commit ne recule ni ne se situe dans le futur.
 - `tools/build.py` écrit l’historique à partir de ce corpus en une seule passe ; une seconde construction dans un dossier vide a donné des empreintes identiques. Les résultats figurent dans [`REPRODUCE.md`](REPRODUCE.md), et [`data/corpus.sha256`](data/corpus.sha256) donne l’empreinte du corpus.
 - Le texte est la couche texte propre des PDF, et non une transcription. [`LICENSE`](LICENSE) liste ce qui a été modifié (mise en page, numéros de page, espacement, guillemets et tirets ; notes de modification dans les intitulés d’articles omises), et `REPRODUCE.md` les choix faits manuellement pour chaque texte.
+- [vulnerabilities/](vulnerabilities/): erreurs de rédaction possibles dans ce droit, trouvées par les détecteurs de global-law et vérifiées à la main. Pas encore lancé.
 
 ## Ce qu’il ne montre pas
 
@@ -87,6 +88,10 @@ Voir [`LICENSE`](LICENSE). Les textes juridiques relèvent du droit public de la
 Aucun modèle d’IA n’a rédigé, traduit ni corrigé de texte juridique, et aucun ne s’exécute lors de la construction de l’historique ; les scripts ont été écrits par un modèle d’IA (voir [`REPRODUCE.md`](REPRODUCE.md)).
 
 Ceci est une traduction de la version anglaise ([README.en.md](README.en.md)) ; en cas de divergence, la version anglaise fait foi.
+
+## Visualisations
+
+- [visualisations/](visualisations/): graphiques tirés de ce dépôt. Pas encore dessinés.
 
 ## En savoir plus
 

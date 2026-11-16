@@ -63,6 +63,7 @@ Each version is the "oldest version available", credited to the publisher the re
 - `tools/check_repo.py` reads every version back from git on the day it took effect and on the day before, and both must match the corpus the history was built from; it also checks that every commit's trailers parse, that there are no merge commits and that no commit date goes backwards or lies in the future.
 - `tools/build.py` writes the history from that corpus in one pass; a second build into an empty folder gave identical hashes. The results are in [`REPRODUCE.md`](REPRODUCE.md), and [`data/corpus.sha256`](data/corpus.sha256) gives the corpus's hash.
 - The text is the PDFs' own text layer, not a transcription. [`LICENSE`](LICENSE) lists what was changed (layout, page numbers, spacing, quotes and dashes; amendment notes in article headings left out), and `REPRODUCE.md` each act's decisions by hand.
+- [vulnerabilities/](vulnerabilities/README.en.md): possible drafting mistakes in this law, found by global-law's detectors and checked by hand. Not run yet.
 
 ## What it does not show
 
@@ -85,6 +86,10 @@ Each version is the "oldest version available", credited to the publisher the re
 See [`LICENSE`](LICENSE). The legal texts are the public law of the Republic of Niger, reproduced with attribution to each source; no source states a licence, and Article 6(i) of Annex VII of the Bangui Agreement, which applies in Niger as an OAPI member, excludes official legislative texts from copyright. The history, commit messages, tables and tools are CC0 1.0.
 
 No AI model wrote, translated or corrected legal text, and none runs when the history is built; the scripts were written by an AI model (see [`REPRODUCE.md`](REPRODUCE.md)).
+
+## Visualisations
+
+- [visualisations/](visualisations/README.en.md): charts drawn from this repository. Not drawn yet.
 
 ## More
 
