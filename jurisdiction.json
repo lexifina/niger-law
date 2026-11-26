@@ -4,8 +4,8 @@
   "name": "Niger",
   "level": "country",
   "repo": "https://github.com/lexifina/niger-law",
-  "build": "built: six one-version texts, with no change history: Constitution consolidated to 2018 (suspended in 2023); Code pénal consolidated to 2018 (replaced in 2026); Code de procédure pénale to 2004; Code du travail as enacted in 2012; charter of political parties to 2019; electoral code to 2019. Later changes are not represented unless named in those source versions.",
+  "build": "built: the Charte de la Refondation of 26 March 2025 (constitutional value, in force); 246 laws, ordinances, decrees and arrêtés (1960-2025) from FAOLEX, the Conseil d'Etat and the Ministry of Mines, each one version as published, dated by the date of the text; and six earlier one-version texts: Constitution consolidated to 2018 (suspended in 2023); Code pénal consolidated to 2018 (replaced in 2026); Code de procédure pénale to 2004; Code du travail as enacted in 2012; charter of political parties to 2019; electoral code to 2019. Later changes are not represented.",
   "register": "https://claude.ai/artifact/DdS9F6yqpPZtV2i7FGQhYZ",
   "register_date": "2026-10-28",
-  "sources": 6
+  "sources": 9
 }
