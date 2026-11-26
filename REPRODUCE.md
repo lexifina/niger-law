@@ -103,5 +103,5 @@ The folders lois/, ordonnances/, decrets/ and arretes/ are built by `scripts/nig
    headings into one file per article.
 4. One commit per act, dated 12:00 Africa/Niamey on the date of the text, pushed fast-forward in batches.
 
-At this push: 246 acts taken (57 lois, 14 ordonnances, 90 décrets, 85 arrêtés, FAOLEX, Conseil d'Etat and Ministère des Mines); 62 records held (scans without a text layer,
+At this push: 246 acts taken (57 lois, 14 ordonnances, 90 décrets, 85 arrêtés, FAOLEX, Conseil d'Etat and Ministère des Mines), 255 records held (scans without a text layer,
 unreadable text layers, titles without a date, duplicates).
