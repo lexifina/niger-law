@@ -89,3 +89,19 @@ Model use at data-build time:
 - Claude Code wrote the code and chose the source; it did not write or alter any legal text. The code is deterministic and runs no model.
 - Claude Code wrote the code and chose the source; it did not write or alter any legal text. The code is deterministic and runs no model.
 - none
+
+## Acts by type and year (2026-11-26)
+
+The folders lois/, ordonnances/, decrets/ and arretes/ are built by `scripts/niger-law/runner/ne_build.py acts`:
+
+1. List the Niger records of FAOLEX from its public sitemaps (`faolex.fao.org/sitemaps/documents-*.xml`, slugs ending
+   `-ner-<year>`), keeping lois, ordonnances, décrets and arrêtés; add the PDFs linked from the Conseil d'Etat's
+   Législation pages.
+2. For each, read the title (FAOLEX record page, or the first page of the PDF), parse kind, number and date, and
+   fetch the PDF (`faolex.fao.org/docs/pdf/ner<id>.pdf`), about one request a second.
+3. Keep only PDFs with a text layer whose words are at least 90% well-formed; no OCR is run. Split at article
+   headings into one file per article.
+4. One commit per act, dated 12:00 Africa/Niamey on the date of the text, pushed fast-forward in batches.
+
+At this push: 93 acts taken (46 lois, 12 ordonnances, 35 décrets); 62 records held (scans without a text layer,
+unreadable text layers, titles without a date, duplicates).

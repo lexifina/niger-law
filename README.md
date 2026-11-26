@@ -11,11 +11,11 @@ Le droit du Niger sous la forme d’un historique git : un fichier par article,
 
 Fait partie de [lexifina/global-law](https://github.com/lexifina/global-law), un historique git unique pour le droit de tous les pays : il s’agit ici du droit national du Niger, que global-law lit sous `niger/national/acts/`.
 
-**Contenu actuel :** six textes, chacun en une version et aucun n’ayant encore d’historique de modifications : la Constitution du 25 novembre 2010 telle que modifiée jusqu’en 2018 (le préambule, 185 articles et l’article 99 bis) ; le Code pénal dans l’édition du Ministère de la Justice de janvier 2018 ; le Code de procédure pénale tel que modifié jusqu’en 2004 (749 articles) ; le Code du travail tel qu’adopté en 2012 (365 articles) ; et la Charte des partis politiques et le Code électoral, chacun tel que modifié jusqu’en 2019. Le `README.md` de chaque texte liste ses dispositions.
+**Contenu actuel :** la Charte de la Refondation du 26 mars 2025 (texte à valeur constitutionnelle en vigueur, préambule et 78 articles) ; 93 lois, ordonnances et décrets (1960–2025 ; 46 lois, 12 ordonnances, 35 décrets, tels que publiés, voir [STRUCTURE.md](STRUCTURE.md)), le nombre croissant à mesure que la collecte avance ; et six textes fondamentaux, chacun en une version : la Constitution du 25 novembre 2010 telle que modifiée jusqu’en 2018 (le préambule, 185 articles et l’article 99 bis) ; le Code pénal dans l’édition du Ministère de la Justice de janvier 2018 ; le Code de procédure pénale tel que modifié jusqu’en 2004 (749 articles) ; le Code du travail tel qu’adopté en 2012 (365 articles) ; et la Charte des partis politiques et le Code électoral, chacun tel que modifié jusqu’en 2019. Le `README.md` de chaque texte liste ses dispositions.
 
 **Ce n’est pas le droit en vigueur aujourd’hui.** La Constitution a été suspendue après la prise du pouvoir par les militaires le 26 juillet 2023, le Code pénal aurait été remplacé en 2026, et les modifications ultérieures des autres textes ne sont pas appliquées (voir [Ce qu’il ne montre pas](#ce-quil-ne-montre-pas)).
 
-Chaque texte a son propre dossier avec un fichier par article (`code-du-travail/art-116.md` est l’article 116 du Code du travail, relatif aux congés payés ; `constitution/art-099-bis.md` est l’article 99 bis). Le préambule et les intitulés des titres de la Constitution sont `preamble.md` et `titre-01.md` à `titre-14.md` ; les intitulés du Code pénal sont les fichiers `part-*.md` ; le Code électoral et la Charte des partis politiques tiennent chacun en un seul fichier, `texte-integral.md`.
+Les dossiers sont rangés par type puis par année : `charte-de-la-refondation/`, `constitution/`, `codes/<code>/`, `lois/<année>/`, `ordonnances/<année>/`, `decrets/<année>/`, `arretes/<année>/` ([STRUCTURE.md](STRUCTURE.md)). Chaque texte a son propre dossier avec un fichier par article (`codes/code-du-travail/art-116.md` est l’article 116 du Code du travail, relatif aux congés payés ; `constitution/art-099-bis.md` est l’article 99 bis). Le préambule et les intitulés des titres de la Constitution sont `preamble.md` et `titre-01.md` à `titre-14.md` ; les intitulés du Code pénal sont les fichiers `part-*.md` ; le Code électoral et la Charte des partis politiques tiennent chacun en un seul fichier, `texte-integral.md`.
 
 Le texte est en français, tel que ses sources l’impriment. Une traduction anglaise ne fait pas partie de ce corpus.
 
@@ -23,10 +23,10 @@ Le texte est en français, tel que ses sources l’impriment. Une traduction ang
 
 | Question | Commande |
 | --- | --- |
-| Toutes les modifications de l’article 116 du Code du travail (congés payés) | `git log -p --word-diff -- code-du-travail/art-116.md` |
-| Quelle loi a rédigé chaque ligne de l’article 116 ? | `git blame code-du-travail/art-116.md` |
-| Toutes les versions de l’article 116, avec la date d’entrée en vigueur de chacune | `git log --format="%h %(trailers:key=In-force,valueonly,separator=) %an" -- code-du-travail/art-116.md` |
-| L’article 116 au 1er janvier 2015, tel que ce corpus le contient | `python tools/on.py 2015-01-01 code-du-travail art-116` |
+| Toutes les modifications de l’article 116 du Code du travail (congés payés) | `git log -p --word-diff -- codes/code-du-travail/art-116.md` |
+| Quelle loi a rédigé chaque ligne de l’article 116 ? | `git blame codes/code-du-travail/art-116.md` |
+| Toutes les versions de l’article 116, avec la date d’entrée en vigueur de chacune | `git log --format="%h %(trailers:key=In-force,valueonly,separator=) %an" -- codes/code-du-travail/art-116.md` |
+| L’article 116 au 1er janvier 2015, tel que ce corpus le contient | `python tools/on.py 2015-01-01 codes/code-du-travail art-116` |
 
 **En dehors de git**, nous hébergeons aussi ce corpus publiquement, gratuitement :
 
@@ -42,7 +42,7 @@ Les deux assistants lisent le corpus au moyen du connecteur gratuit Global law (
 ```sh
 git clone --depth 1 https://github.com/lexifina/global-law && cd global-law
 python3 tools/countries.py add niger/national/acts
-python3 tools/law.py show 2026-01-01 niger/national/acts/code-du-travail/art-116.md
+python3 tools/law.py show 2026-01-01 niger/national/acts/codes/code-du-travail/art-116.md
 ```
 
 Ouvert dans Claude Code, Cursor, VS Code ou Codex, le clone démarre aussi un serveur MCP local doté des mêmes outils ([MCP.md](https://github.com/lexifina/global-law/blob/main/MCP.md)).

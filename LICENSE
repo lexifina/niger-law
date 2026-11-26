@@ -22,6 +22,12 @@ Changes made by Lexifina: the PDF text layer was converted to one Markdown file 
 per line; page numbers were dropped; spacing, quotes and dashes were normalised; amendment notes in article headings
 were left out. The wording of the law was not changed. The Government of Niger does not endorse this repository.
 
+The laws, ordinances, decrees and orders under lois/, ordonnances/, decrets/ and arretes/ are copied from the
+text layer of PDFs published by FAOLEX, the FAO Legal Database (https://faolex.fao.org; database (c) FAO, whose
+terms allow copying for non-commercial use with acknowledgement of FAO as the source), and by the Conseil d'Etat du Niger (https://www.conseildetat.ne, no licence
+stated). Each act's README.md and commit name the PDF. Article 6(i) of Annex VII of the Bangui Agreement excludes
+official legislative texts from copyright protection in Niger.
+
 Lexifina's own contributions (the arrangement of the history, the commit messages, the tables and the tools) are
 dedicated to the public domain under CC0 1.0 Universal:
 https://creativecommons.org/publicdomain/zero/1.0/legalcode

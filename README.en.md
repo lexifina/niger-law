@@ -11,11 +11,11 @@ The law of Niger as a git history: one file per article, one commit per version 
 
 Part of [lexifina/global-law](https://github.com/lexifina/global-law), one git history for every country's law: this is Niger's national law, which global-law reads at `niger/national/acts/`.
 
-**What is in it now:** six texts, each in one version and none with a change history yet: the Constitution of 25 November 2010 as amended to 2018 (the preamble, 185 articles and Article 99 bis); the Code pénal in the Ministry of Justice's edition of January 2018; the Code de procédure pénale as amended to 2004 (749 articles); the Code du travail as enacted in 2012 (365 articles); and the Charte des partis politiques and the Code électoral, each as amended to 2019. Each act's `README.md` lists its provisions.
+**What is in it now:** the Charte de la Refondation of 26 March 2025 (the basic text in force, of constitutional value: preamble and 78 articles); 93 laws, ordinances and decrees (1960–2025; 46 laws, 12 ordinances, 35 decrees, as published, see [STRUCTURE.md](STRUCTURE.md)), a number that grows as collection proceeds; and six basic texts, each in one version: the Constitution of 25 November 2010 as amended to 2018 (the preamble, 185 articles and Article 99 bis); the Code pénal in the Ministry of Justice's edition of January 2018; the Code de procédure pénale as amended to 2004 (749 articles); the Code du travail as enacted in 2012 (365 articles); and the Charte des partis politiques and the Code électoral, each as amended to 2019. Each act's `README.md` lists its provisions.
 
 **Not the law in force today.** The Constitution was suspended after the military takeover of 26 July 2023, the Code pénal is reported to have been replaced in 2026, and later amendments to the other texts are not applied (see [What it does not show](#what-it-does-not-show)).
 
-Each act has its own folder with one file per article (`code-du-travail/art-116.md` is Article 116 of the Code du travail, on paid leave; `constitution/art-099-bis.md` is Article 99 bis). The Constitution's preamble and title headings are `preamble.md` and `titre-01.md` to `titre-14.md`; the Code pénal's headings are `part-*.md`; the Code électoral and the Charte des partis politiques are each one file, `texte-integral.md`.
+Folders are filed by type and then year: `charte-de-la-refondation/`, `constitution/`, `codes/<code>/`, `lois/<year>/`, `ordonnances/<year>/`, `decrets/<year>/`, `arretes/<year>/` ([STRUCTURE.md](STRUCTURE.md)). Each act has its own folder with one file per article (`codes/code-du-travail/art-116.md` is Article 116 of the Code du travail, on paid leave; `constitution/art-099-bis.md` is Article 99 bis). The Constitution's preamble and title headings are `preamble.md` and `titre-01.md` to `titre-14.md`; the Code pénal's headings are `part-*.md`; the Code électoral and the Charte des partis politiques are each one file, `texte-integral.md`.
 
 The text is in French, as its sources print it. An English translation is not part of this record.
 
@@ -23,10 +23,10 @@ The text is in French, as its sources print it. An English translation is not pa
 
 | Question | Command |
 | --- | --- |
-| Every change to Article 116 of the Code du travail (paid leave) | `git log -p --word-diff -- code-du-travail/art-116.md` |
-| Which law wrote each line of Article 116? | `git blame code-du-travail/art-116.md` |
-| Every version of Article 116, with the day each took effect | `git log --format="%h %(trailers:key=In-force,valueonly,separator=) %an" -- code-du-travail/art-116.md` |
-| Article 116 on 1 January 2015, as this record holds it | `python tools/on.py 2015-01-01 code-du-travail art-116` |
+| Every change to Article 116 of the Code du travail (paid leave) | `git log -p --word-diff -- codes/code-du-travail/art-116.md` |
+| Which law wrote each line of Article 116? | `git blame codes/code-du-travail/art-116.md` |
+| Every version of Article 116, with the day each took effect | `git log --format="%h %(trailers:key=In-force,valueonly,separator=) %an" -- codes/code-du-travail/art-116.md` |
+| Article 116 on 1 January 2015, as this record holds it | `python tools/on.py 2015-01-01 codes/code-du-travail art-116` |
 
 **Outside git**, we also host this record publicly, for free:
 
@@ -42,7 +42,7 @@ Both assistants read the record through the free Global law connector (MCP, `htt
 ```sh
 git clone --depth 1 https://github.com/lexifina/global-law && cd global-law
 python3 tools/countries.py add niger/national/acts
-python3 tools/law.py show 2026-01-01 niger/national/acts/code-du-travail/art-116.md
+python3 tools/law.py show 2026-01-01 niger/national/acts/codes/code-du-travail/art-116.md
 ```
 
 Opened in Claude Code, Cursor, VS Code or Codex, the clone also starts a local MCP server with the same tools ([MCP.md](https://github.com/lexifina/global-law/blob/main/MCP.md)).
