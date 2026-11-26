@@ -39,3 +39,6 @@ Dans chaque dossier de texte / in each text folder:
 
 Aucune reconnaissance optique (OCR) n'est faite par Lexifina : un PDF sans couche texte, ou dont la couche texte est
 illisible, n'est pas repris.
+
+`ohada/actes-uniformes/<acte>/`: OHADA Uniform Acts, which apply directly in Niger as an OHADA State Party; one file
+per article, `visas.md` and a `README.md` giving the Journal officiel de l'OHADA issue and the date of application.

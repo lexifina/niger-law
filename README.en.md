@@ -11,11 +11,11 @@ The law of Niger as a git history: one file per article, one commit per version 
 
 Part of [lexifina/global-law](https://github.com/lexifina/global-law), one git history for every country's law: this is Niger's national law, which global-law reads at `niger/national/acts/`.
 
-**What is in it now:** the Charte de la Refondation of 26 March 2025 (the basic text in force, of constitutional value: preamble and 78 articles); 246 laws, ordinances, decrees and orders (1960–2025; 57 laws, 14 ordinances, 90 decrees, 85 arrêtés, as published, see [STRUCTURE.md](STRUCTURE.md)), a number that grows as collection proceeds; and six basic texts, each in one version: the Constitution of 25 November 2010 as amended to 2018 (the preamble, 185 articles and Article 99 bis); the Code pénal in the Ministry of Justice's edition of January 2018; the Code de procédure pénale as amended to 2004 (749 articles); the Code du travail as enacted in 2012 (365 articles); and the Charte des partis politiques and the Code électoral, each as amended to 2019. Each act's `README.md` lists its provisions.
+**What is in it now:** the Charte de la Refondation of 26 March 2025 (the basic text in force, of constitutional value: preamble and 78 articles); 313 laws, ordinances, decrees and orders (1960–2025; 60 laws, 15 ordinances, 104 decrees, 134 arrêtés, as published, see [STRUCTURE.md](STRUCTURE.md)), a number that grows as collection proceeds; two OHADA Uniform Acts, applicable in Niger (secured transactions and cooperative companies, 2010, `ohada/actes-uniformes/`); and six basic texts, each in one version: the Constitution of 25 November 2010 as amended to 2018 (the preamble, 185 articles and Article 99 bis); the Code pénal instituted by ordonnance n° 2026-09 du 16 février 2026 (610 articles), preceded in the history by the 1961 Code pénal in the Ministry of Justice's edition of January 2018; the Code de procédure pénale as amended to 2004 (749 articles); the Code du travail as enacted in 2012 (365 articles); and the Charte des partis politiques and the Code électoral, each as amended to 2019. Each act's `README.md` lists its provisions.
 
-**Not the law in force today.** The Constitution was suspended after the military takeover of 26 July 2023, the Code pénal is reported to have been replaced in 2026, and later amendments to the other texts are not applied (see [What it does not show](#what-it-does-not-show)).
+**Not the law in force today.** The Constitution was suspended after the military takeover of 26 July 2023, the Code pénal was replaced in 2026 (the new text is in `codes/code-penal/`), and later amendments to the other texts are not applied (see [What it does not show](#what-it-does-not-show)).
 
-Folders are filed by type and then year: `charte-de-la-refondation/`, `constitution/`, `codes/<code>/`, `lois/<year>/`, `ordonnances/<year>/`, `decrets/<year>/`, `arretes/<year>/` ([STRUCTURE.md](STRUCTURE.md)). Each act has its own folder with one file per article (`codes/code-du-travail/art-116.md` is Article 116 of the Code du travail, on paid leave; `constitution/art-099-bis.md` is Article 99 bis). The Constitution's preamble and title headings are `preamble.md` and `titre-01.md` to `titre-14.md`; the Code pénal's headings are `part-*.md`; the Code électoral and the Charte des partis politiques are each one file, `texte-integral.md`.
+Folders are filed by type and then year: `charte-de-la-refondation/`, `constitution/`, `codes/<code>/`, `lois/<year>/`, `ordonnances/<year>/`, `decrets/<year>/`, `arretes/<year>/`, `ohada/actes-uniformes/<act>/` ([STRUCTURE.md](STRUCTURE.md)). Each act has its own folder with one file per article (`codes/code-du-travail/art-116.md` is Article 116 of the Code du travail, on paid leave; `constitution/art-099-bis.md` is Article 99 bis). The Constitution's preamble and title headings are `preamble.md` and `titre-01.md` to `titre-14.md`; the 1961 Code pénal's headings were `part-*.md` (in the history); the Code électoral and the Charte des partis politiques are each one file, `texte-integral.md`.
 
 The text is in French, as its sources print it. An English translation is not part of this record.
 
@@ -54,7 +54,8 @@ Each commit is dated at noon, Africa/Niamey, on the day the version took effect,
 - the Constitution is dated 22 June 2018, the date of loi n°2018-44, the last amending law it names; the Code de procédure pénale 16 May 2004, the date of loi n° 2004-21, likewise;
 - the Code du travail is dated 25 September 2012, the date of loi n° 2012-45 (its Article 365 only orders publication in the Journal officiel);
 - the Code électoral and the Charte des partis politiques are dated by the latest amendment their PDFs print (18 July 2019 and 17 June 2019);
-- the Code pénal is dated 1 January 2018: its edition gives only the month.
+- the 1961 Code pénal (2018 edition) is dated 1 January 2018: its edition gives only the month; the 2026 Code pénal is dated 16 February 2026, the date of ordonnance n° 2026-09 (the day of its publication in the Journal officiel is not established);
+- the OHADA Uniform Acts are dated 16 May 2011, ninety days after their publication in the OHADA Journal officiel of 15 February 2011.
 
 Each version is the "oldest version available", credited to the publisher the repository records, the Gouvernement du Niger (gouv.ne), Textes fondamentaux, including the three texts taken from UNODC SHERLOC and Droit-Afrique; its commit message names the laws the source says produced the text (the Constitution's names the 2010 promulgation décret and five amending laws). The committer is always Lexifina.
 
@@ -67,11 +68,11 @@ Each version is the "oldest version available", credited to the publisher the re
 
 ## What it does not show
 
-- **The law in force today.** The Constitution of the VIIth Republic was suspended after 26 July 2023 and replaced by the transition's own texts. The ordonnance n°2026-09 du 16 février 2026 portant institution du Code pénal is reported to have replaced the Code pénal; its text is not here.
+- **The law in force today.** The Constitution of the VIIth Republic was suspended after 26 July 2023 and replaced by the transition's own texts. The Code pénal of ordonnance n° 2026-09 du 16 février 2026 is in `codes/code-penal/`, from the Government's copy published in the ILGA World database (a secondary copy).
 - **Later amendments.** The Code de procédure pénale lacks those after 2004 (among them loi n° 2019-55 du 22 novembre 2019); the Code du travail those after 2012, and its regulatory part (décret n° 2017-682/PRN/MET/PS).
 - **Earlier wording.** The Constitution comes with the changes of 2011, 2017 and 2018 already in place; the portal gives no earlier wording of the changed articles.
 - **Articles the editions do not print.** The Code de procédure pénale skips articles 310 to 317, 736, 737 and 739 to 741; two misprinted numbers are filed as `art-717` and `art-679-01`.
-- **Other law.** No civil or commercial code was found online as an official text (commercial law is largely the OHADA Uniform Acts), and there is no case law.
+- **Other law.** No civil or commercial code was found online as an official text (commercial law is largely the OHADA Uniform Acts, of which only two are here: the others are online only as scans or unusable third-party copies). Case law (CCJA judgments in Niger cases and Niger decisions on OHADA law) is in the private `niger-law-caselaw` repository.
 
 ## Sources
 
@@ -79,6 +80,10 @@ Each version is the "oldest version available", credited to the publisher the re
 | --- | --- | --- | --- |
 | [gouv.ne](https://www.gouv.ne), Textes fondamentaux (Gouvernement du Niger) | Government portal: official PDFs | no, one consolidated text each | The Constitution (to 2018), the Code électoral and the Charte des partis politiques (to 2019) |
 | [UNODC SHERLOC](https://sherloc.unodc.org) | Copies of national PDFs | no, one edition each | The Code pénal (Ministry of Justice edition, January 2018) and the Code de procédure pénale (to 2004) |
+| [OHADA Journal officiel](https://www.ohada.org/journal-officiel/) | Official PDFs (nos. 22 and 23 of 15 February 2011) | no, the act as adopted | Two 2010 Uniform Acts, in `ohada/` |
+| [ILGA World](https://database.ilga.org) | Copy of a Government PDF | no | The 2026 Code pénal (ordonnance n° 2026-09) |
+| [WIPO Lex](https://www.wipo.int/wipolex/en/members/profile/NE) | Copies of national PDFs | no | The 1993 and 2010 copyright ordinances |
+| [FAOLEX](https://faolex.fao.org) and ministry sites (justice, finance, interior, mines) | Copies of national PDFs; official PDFs | no, one version each | The laws, ordinances, decrees and orders; an Internet Archive copy where the file has gone from the site |
 | [Droit-Afrique](http://web.archive.org/web/20160615103820/http://www.droit-afrique.com:80/upload/doc/niger/Niger-Code-2012-du-travail.pdf) (Internet Archive copy of 15 June 2016) | Publisher of African law texts | no, the Code as enacted | The Code du travail of 2012 |
 
 ## Licence

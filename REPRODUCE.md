@@ -105,3 +105,18 @@ The folders lois/, ordonnances/, decrets/ and arretes/ are built by `scripts/nig
 
 At this push: 246 acts taken (57 lois, 14 ordonnances, 90 décrets, 85 arrêtés, FAOLEX, Conseil d'Etat and Ministère des Mines), 255 records held (scans without a text layer,
 unreadable text layers, titles without a date, duplicates).
+
+## Secondary sources (2026-11-26)
+
+- `ne_build.py acts` also reads `extra_urls.txt`: PDFs on Niger government sites (seeded from the `source_url` column
+  of the Hugging Face dataset endomorphosis/ipfs_niger_laws, used only as a list of URLs; each file is fetched from the
+  official host, or from the Internet Archive when the host answers 404) and two WIPO Lex records. Where a FAOLEX title
+  gives no date, the record's own full `date_of_text` is used and the `In-force-evidence` trailer says so. Arrêté
+  numbers are matched by number and year (they restart each year).
+- `ohada_build.py`: the two Journal officiel de l'OHADA issues on ohada.org with a born-digital text layer (nos. 22 and
+  23, 15 February 2011), one file per article, dated 16 May 2011 (90 days after publication, article 9 of the Treaty).
+  The other JO issues on the site are scans (held, no OCR); the Hugging Face text of the Uniform Acts was not used.
+- `penal2026.py`: the Code pénal of ordonnance n° 2026-09 (610 articles) from the Government's PDF in the ILGA World
+  database, as a new version of `codes/code-penal/` dated 16 February 2026; the heading of article 382 is printed
+  "Article 82" in the source and is filed as article 382.
+- Commits from these sources carry `Source-status: secondary copy (<source>, <URL>)`.

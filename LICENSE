@@ -28,6 +28,18 @@ terms allow copying for non-commercial use with acknowledgement of FAO as the so
 stated). Each act's README.md and commit name the PDF. Article 6(i) of Annex VII of the Bangui Agreement excludes
 official legislative texts from copyright protection in Niger.
 
+The Code pénal instituted by ordonnance n° 2026-09 of 16 February 2026 (codes/code-penal/) is copied from the
+text layer of the Government's PDF of the ordinance as published by the ILGA World database
+(https://database.ilga.org; secondary copy, no licence stated for the document). The two copyright ordinances of
+1993 and 2010 are copied from PDFs published by WIPO Lex (https://www.wipo.int/wipolex; WIPO's terms allow
+reproduction of legal texts with acknowledgement of the source). Some acts come from PDFs on Niger government sites
+(justice.gouv.ne, finances.gouv.ne, interieur.gouv.ne, mines.gouv.ne, assemblee.ne; no licence stated), or, where the
+file has gone from the site, from the Internet Archive's copy of it; each act's README.md and commit name the file.
+
+The OHADA Uniform Acts under ohada/ are copied from the Journal officiel de l'OHADA (https://www.ohada.org, nos. 22 and
+23 of 15 February 2011; no licence stated). They are official legislative texts of an organisation of which Niger is a
+State Party, and Article 6(i) of Annex VII of the Bangui Agreement excludes official texts from copyright protection.
+
 Lexifina's own contributions (the arrangement of the history, the commit messages, the tables and the tools) are
 dedicated to the public domain under CC0 1.0 Universal:
 https://creativecommons.org/publicdomain/zero/1.0/legalcode
