@@ -4,6 +4,237 @@
  "generated_from": "runner state",
  "acts": [
   {
+   "id": "arretes/1974/22-fixant-les-quantites-minimales-a-considerer-a-l",
+   "kind": "arrete",
+   "number": "22",
+   "date": "1974-06-04",
+   "title": "Arrêté nº 22 du 4 juin 1974 fixant les quantités minimales à considérer à l'occasion de la délivrance des permis d'exploitation de bois de feu dans les grands centres urbains et à proximité des axes routiers.",
+   "source": "https://faolex.fao.org/docs/pdf/ner18296.pdf",
+   "record": "https://faolex.fao.org/en/documents/LEX-FAOC018296/arrete-n-22-du-4-juin-1974-fixant-les-quantites-minimales-a-ner-1974",
+   "text_layer": "born-digital",
+   "articles": 6
+  },
+  {
+   "id": "arretes/1995/76-mme-e-dm-portant-modalites-de-liquidation-et-de",
+   "kind": "arrete",
+   "number": "76/MME/E/DM",
+   "date": "1995-09-12",
+   "title": "Arrêté n° 76/MME/E/DM du 12 septembre 1995 portant modalités de liquidation et de recouvrement de la taxe d’exploitation artisanale en application de l’article 77 du décret n° 93-44/PM/MMEI/A du 12 mars 1993 fixant les modalités d’application de la loi minière.",
+   "source": "https://faolex.fao.org/docs/pdf/ner190572.pdf",
+   "record": "https://faolex.fao.org/en/documents/LEX-FAOC190572/arrete-n-76-mme-e-dm-du-12-septembre-1995-portant-modalites-ner-1995",
+   "text_layer": "born-digital",
+   "articles": 11
+  },
+  {
+   "id": "arretes/1996/335mag-el-dpv-fixant-les-conditions-de-delivrance-et-d-emploi",
+   "kind": "arrete",
+   "number": "335MAG/EL/DPV",
+   "date": "1996-12-16",
+   "title": "Arrêté nº 335 MAG/EL/DPV du 16 décembre 1996 fixant les conditions de délivrance et d'emploi en agriculture de produits phytopharmaceutiques dangereux.",
+   "source": "https://faolex.fao.org/docs/pdf/ner17633.pdf",
+   "record": "https://faolex.fao.org/en/documents/LEX-FAOC017633/arrete-n-335-mag-el-dpv-du-16-decembre-1996-fixant-les-condi-ner-1996",
+   "text_layer": "publisher-ocr",
+   "articles": 3
+  },
+  {
+   "id": "arretes/1997/031mag-el-dp-relatif-au-controle-phytosanitaire-des-vegetaux",
+   "kind": "arrete",
+   "number": "031MAG/EL/DP",
+   "date": "1997-02-25",
+   "title": "Arrêté nº 031 MAG/EL/DP du 25 février 1997 relatif au contrôle phytosanitaire des végétaux et des produits végétaux à l'importation ou à l'exportation.",
+   "source": "https://faolex.fao.org/docs/pdf/ner17628.pdf",
+   "record": "https://faolex.fao.org/en/documents/LEX-FAOC017628/arrete-n-031-mag-el-dp-du-25-fevrier-1997-relatif-au-control-ner-1997",
+   "text_layer": "publisher-ocr",
+   "articles": 10
+  },
+  {
+   "id": "arretes/1997/053pm-se-cnedd-portant-creation-composition-et-attribution-de-la",
+   "kind": "arrete",
+   "number": "053PM/SE/CNEDD",
+   "date": "1997-07-21",
+   "title": "Arrêté n° 053PM/SE/CNEDD du 21 juillet 1997 portant création, composition et attribution de la commission technique sur la diversité biologique (CTDB).",
+   "source": "https://faolex.fao.org/docs/pdf/ner146488.pdf",
+   "record": "https://faolex.fao.org/en/documents/LEX-FAOC146488/arrete-n-053pm-se-cnedd-du-21-juillet-1997-portant-creation-ner-1997",
+   "text_layer": "born-digital",
+   "articles": 11
+  },
+  {
+   "id": "arretes/1999/119-mag-el-cab-portant-creation-d-un-comite-technique-de",
+   "kind": "arrete",
+   "number": "119/MAG/EL/CAB",
+   "date": "1999-09-29",
+   "title": "Arrêté nº 119/MAG/EL/CAB du 29 septembre 1999 portant création d'un Comité technique de réflexion sur les usines aliments bétail (UAB).",
+   "source": "https://faolex.fao.org/docs/pdf/ner30637.pdf",
+   "record": "https://faolex.fao.org/en/documents/LEX-FAOC030637/arrete-n-119-mag-el-cab-du-29-septembre-1999-portant-creatio-ner-1999",
+   "text_layer": "publisher-ocr",
+   "articles": 4
+  },
+  {
+   "id": "arretes/2001/008-mci-dci1-c-portant-creation-attributions-et-composition-d-un",
+   "kind": "arrete",
+   "number": "008/MCI/DCI1/C",
+   "date": "2001-02-20",
+   "title": "Arrêté nº 008/MCI/DCI1/C du 20 février 2001, portant création, attributions et composition d'un comité chargé du suivi de la filière hydrocarbures.",
+   "source": "https://faolex.fao.org/docs/pdf/ner64907.pdf",
+   "record": "https://faolex.fao.org/en/documents/LEX-FAOC064907/arrete-n-008-mci-dci1-c-du-20-fevrier-2001-portant-creation-ner-2001",
+   "text_layer": "publisher-ocr",
+   "articles": 4
+  },
+  {
+   "id": "arretes/2001/03-mme-dm-portant-protection-contre-les-dangers-des",
+   "kind": "arrete",
+   "number": "03/MME/DM",
+   "date": "2001-01-08",
+   "title": "Arrêté nº 03/MME/DM du 8 janvier 2001, portant protection contre les dangers des rayonnements ionisants dans le secteur minier.",
+   "source": "https://faolex.fao.org/docs/pdf/ner64904.pdf",
+   "record": "https://faolex.fao.org/en/documents/LEX-FAOC064904/arrete-n-03-mme-dm-du-8-janvier-2001-portant-protection-cont-ner-2001",
+   "text_layer": "publisher-ocr",
+   "articles": 46
+  },
+  {
+   "id": "arretes/2001/159-mda-dep-portant-creation-et-organisation-du-programme-d",
+   "kind": "arrete",
+   "number": "159/MDA/DEP",
+   "date": "2001-12-24",
+   "title": "Arrêté nº 159/MDA/DEP du 24 décembre 2001, portant création et organisation du Programme d'appui à la filière riz (PAFRIZ) (régularisation).",
+   "source": "https://faolex.fao.org/docs/pdf/ner65255.pdf",
+   "record": "https://faolex.fao.org/en/documents/LEX-FAOC065255/arrete-n-159-mda-dep-du-24-decembre-2001-portant-creation-et-ner-2001",
+   "text_layer": "publisher-ocr",
+   "articles": 9
+  },
+  {
+   "id": "arretes/2002/099-mme-dep-portant-creation-organisation-et-composition-de",
+   "kind": "arrete",
+   "number": "099/MME/DEP",
+   "date": "2002-12-26",
+   "title": "Arrêté nº 099/MME/DEP du 26 décembre 2002, portant création, organisation et composition de la cellule nationale énergies domestiques (CNED).",
+   "source": "https://faolex.fao.org/docs/pdf/ner95260.pdf",
+   "record": "https://faolex.fao.org/en/documents/LEX-FAOC095260/arrete-n-099-mme-dep-du-26-decembre-2002-portant-creation-or-ner-2002",
+   "text_layer": "publisher-ocr",
+   "articles": 7
+  },
+  {
+   "id": "arretes/2002/33-mme-de-enr-portant-creation-organisation-et-composition-du",
+   "kind": "arrete",
+   "number": "33/MME/DE/ENR",
+   "date": "2002-04-11",
+   "title": "Arrêté nº 33/MME/DE/ENR du 11 avril 2002, portant création, organisation et composition du cadre national de concertation sur les énergies domestiques et alternatives.",
+   "source": "https://faolex.fao.org/docs/pdf/ner65261.pdf",
+   "record": "https://faolex.fao.org/en/documents/LEX-FAOC065261/arrete-n-33-mme-de-enr-du-11-avril-2002-portant-creation-org-ner-2002",
+   "text_layer": "publisher-ocr",
+   "articles": 9
+  },
+  {
+   "id": "arretes/2002/69-pm-portant-creation-attributions-organisation-et",
+   "kind": "arrete",
+   "number": "69/PM",
+   "date": "2002-09-03",
+   "title": "Arrêté nº 69/PM du 3 septembre 2002, portant création, attributions, organisation et fonctionnement de la Cellule crises alimentaires (CCA).",
+   "source": "https://faolex.fao.org/docs/pdf/ner65324.pdf",
+   "record": "https://faolex.fao.org/en/documents/LEX-FAOC065324/arrete-n-69-pm-du-3-septembre-2002-portant-creation-attribut-ner-2002",
+   "text_layer": "publisher-ocr",
+   "articles": 8
+  },
+  {
+   "id": "arretes/2002/9-mhe-lcjd-ie-portant-creation-attributions-et-organisation-du",
+   "kind": "arrete",
+   "number": "9/MHE/LCJD/IE",
+   "date": "2002-02-12",
+   "title": "Arrêté n° 9/MHE/LCJD/IE du 12 février 2002 portant création, attributions et organisation du comité de pilotage du projet d'aménagernent des forêts naturelles (FAFN).",
+   "source": "https://faolex.fao.org/docs/pdf/ner65326.pdf",
+   "record": "https://faolex.fao.org/en/documents/LEX-FAOC065326/arrete-n-9-mhe-lcjd-ie-du-12-fevrier-2002-portant-creation-a-ner-2002",
+   "text_layer": "publisher-ocr",
+   "articles": 6
+  },
+  {
+   "id": "arretes/2003/0033-mhe-lcd-cab-portant-creation-d-un-comite-technique-permanent",
+   "kind": "arrete",
+   "number": "0033/MHE/LCD/CAB",
+   "date": "2003-06-25",
+   "title": "Arrêté nº 0033/MHE/LCD/CAB du 25 juin 2003 portant création d'un comité technique permanent d'évaluation et de suivi du taux de couverture des besoins en eau potable en milieu rural.",
+   "source": "https://faolex.fao.org/docs/pdf/ner64926.pdf",
+   "record": "https://faolex.fao.org/en/documents/LEX-FAOC064926/arrete-n-0033-mhe-lcd-cab-du-25-juin-2003-portant-creation-d-ner-2003",
+   "text_layer": "publisher-ocr",
+   "articles": 6
+  },
+  {
+   "id": "arretes/2003/018-mc-psp-dnq-m-portant-creation-attributions-composition-et",
+   "kind": "arrete",
+   "number": "018/MC/PSP/DNQ/M",
+   "date": "2003-05-26",
+   "title": "Arrêté nº 018/MC/PSP/DNQ/M du 26 mai 2003, portant création, attributions, composition et fonctionnement d'un comité technique de normalisation sur les produits agro-alimentaires.",
+   "source": "https://faolex.fao.org/docs/pdf/ner95266.pdf",
+   "record": "https://faolex.fao.org/en/documents/LEX-FAOC095266/arrete-n-018-mc-psp-dnq-m-du-26-mai-2003-portant-creation-at-ner-2003",
+   "text_layer": "publisher-ocr",
+   "articles": 8
+  },
+  {
+   "id": "arretes/2003/019-mc-psp-dnq-m-portant-creation-attributions-composition-et",
+   "kind": "arrete",
+   "number": "019/MC/PSP/DNQ/M",
+   "date": "2003-05-26",
+   "title": "Arrêté nº 019/MC/PSP/DNQ/M du 26 mai 2003, portant création, attributions, composition et fonctionnement d'un comité technique de normalisation sur l'eau et l'environnement.",
+   "source": "https://faolex.fao.org/docs/pdf/ner95263.pdf",
+   "record": "https://faolex.fao.org/en/documents/LEX-FAOC095263/arrete-n-019-mc-psp-dnq-m-du-26-mai-2003-portant-creation-at-ner-2003",
+   "text_layer": "publisher-ocr",
+   "articles": 8
+  },
+  {
+   "id": "arretes/2003/031-mhe-lcd-portant-creation-attributions-composition-et",
+   "kind": "arrete",
+   "number": "031/MHE/LCD",
+   "date": "2003-06-24",
+   "title": "Arrêté nº 031/MHE/LCD du 24 juin 2003, portant création, attributions, composition et fonctionnement du comité technique du suivi du projet initiative terre et esu en Afrique: projet pilote Niger.",
+   "source": "https://faolex.fao.org/docs/pdf/ner95313.pdf",
+   "record": "https://faolex.fao.org/en/documents/LEX-FAOC095313/arrete-n-031-mhe-lcd-du-24-juin-2003-portant-creation-attrib-ner-2003",
+   "text_layer": "publisher-ocr",
+   "articles": 7
+  },
+  {
+   "id": "arretes/2003/05-mra-dep-portant-creation-et-attributions-du-comite",
+   "kind": "arrete",
+   "number": "05/MRA/DEP",
+   "date": "2003-02-18",
+   "title": "Arrêté nº 05/MRA/DEP du 18 février 2003, portant création et attributions du comité national chargé de la mise en oeuvre du Programme national Lactopéroxydase (PNL) au Niger.",
+   "source": "https://faolex.fao.org/docs/pdf/ner65328.pdf",
+   "record": "https://faolex.fao.org/en/documents/LEX-FAOC065328/arrete-n-05-mra-dep-du-18-fevrier-2003-portant-creation-et-a-ner-2003",
+   "text_layer": "publisher-ocr",
+   "articles": 9
+  },
+  {
+   "id": "arretes/2003/107-mmre-drgm-portant-creation-du-programme-de-renforcement-et",
+   "kind": "arrete",
+   "number": "107/MMRE/DRGM",
+   "date": "2003-12-15",
+   "title": "Arrêté Nº 107/MMRE/DRGM du 15 décembre 2003, portant création du Programme de renforcement et de diversification du secteur minier au Niger (PRDSM).",
+   "source": "https://faolex.fao.org/docs/pdf/ner64931.pdf",
+   "record": "https://faolex.fao.org/en/documents/LEX-FAOC064931/arrete-n-107-mmre-drgm-du-15-decembre-2003-portant-creation-ner-2003",
+   "text_layer": "publisher-ocr",
+   "articles": 8
+  },
+  {
+   "id": "arretes/2003/51mme-dm-portant-creation-d-un-comite-technique-charge-de",
+   "kind": "arrete",
+   "number": "51MME/DM",
+   "date": "2003-05-30",
+   "title": "Arrêté nº 51 MME/DM du 30 mai 2003 portant création d'un comité technique chargé de formuler des propositions pour l'optimisation de la mine artisanale et le développement de la petite mine.",
+   "source": "https://faolex.fao.org/docs/pdf/ner64928.pdf",
+   "record": "https://faolex.fao.org/en/documents/LEX-FAOC064928/arrete-n-51-mme-dm-du-30-mai-2003-portant-creation-d-un-comi-ner-2003",
+   "text_layer": "publisher-ocr",
+   "articles": 3
+  },
+  {
+   "id": "arretes/2004/102-imhe-lcd-portant-creation-du-comite-national",
+   "kind": "arrete",
+   "number": "102/IMHE/LCD",
+   "date": "2004-12-17",
+   "title": "Arrêté nº 102/IMHE/LCD du 17 décembre 2004, portant création du comité national interministériel de pilotage du projet FEM/GEB/CBLT \"Inversion des tendances à la dégradation des terres et des eaux dans le bassin du lac Tchad\".",
+   "source": "https://faolex.fao.org/docs/pdf/ner66129.pdf",
+   "record": "https://faolex.fao.org/en/documents/LEX-FAOC066129/arrete-n-102-imhe-lcd-du-17-decembre-2004-portant-creation-d-ner-2004",
+   "text_layer": "publisher-ocr",
+   "articles": 7
+  },
+  {
    "id": "arretes/2004/109-mhe-lcd-portant-sur-la-restructuration-de-la-grille",
    "kind": "arrete",
    "number": "109/MHE/LCD",
@@ -15,6 +246,50 @@
    "articles": 4
   },
   {
+   "id": "arretes/2004/114-mme-dh-de-nr-modifiant-l-arrete-n-088-mme-dh-du-29-septembre",
+   "kind": "arrete",
+   "number": "114/MME/DH/DE/NR",
+   "date": "2004-12-22",
+   "title": "Arrêté Nº 114/MME/DH/DE/NR du 22 décembre 2004 modifiant l'arrêté n° 088/MME/DH du 29 septembre 2003, portant création, attributions et organisation du Comité du suivi des actions relatives aux énergies modernes et réduction de la pauvreté.",
+   "source": "https://faolex.fao.org/docs/pdf/ner95308.pdf",
+   "record": "https://faolex.fao.org/en/documents/LEX-FAOC095308/arrete-n-114-mme-dh-de-nr-du-22-decembre-2004-modifiant-l-ar-ner-2004",
+   "text_layer": "publisher-ocr",
+   "articles": 4
+  },
+  {
+   "id": "arretes/2004/138-me-f-cce-dgeca-dmce-portant-creation-et-attributions-du-comite-de",
+   "kind": "arrete",
+   "number": "138/ME/F/CCE/DGECA/DMCE",
+   "date": "2004-05-24",
+   "title": "Arrêté n° 138/ME/F/CCE/DGECA/DMCE du 24 mai 2004, portant création et attributions du comité de pilotage du programme de développement des services financiers ruraux.",
+   "source": "https://faolex.fao.org/docs/pdf/ner95267.pdf",
+   "record": "https://faolex.fao.org/en/documents/LEX-FAOC095267/arrete-n-138-me-f-cce-dgeca-dmce-du-24-mai-2004-portant-crea-ner-2004",
+   "text_layer": "publisher-ocr",
+   "articles": 9
+  },
+  {
+   "id": "arretes/2004/140-msp-lce-fixant-les-normes-de-rejet-des-dechets-dans-les",
+   "kind": "arrete",
+   "number": "140/MSP/LCE/",
+   "date": "2004-09-27",
+   "title": "Arrêté nº 140/MSP/LCE/ du 27 septembre 2004, fixant les normes de rejet des déchets dans les milieux naturels.",
+   "source": "https://faolex.fao.org/docs/pdf/ner95225.pdf",
+   "record": "https://faolex.fao.org/en/documents/LEX-FAOC095225/arrete-n-140-msp-lce-du-27-septembre-2004-fixant-les-normes-ner-2004",
+   "text_layer": "publisher-ocr",
+   "articles": 21
+  },
+  {
+   "id": "arretes/2004/29-mda-dpv-portant-modalites-d-application-de-l-arrete-n-26",
+   "kind": "arrete",
+   "number": "29/MDA/DPV",
+   "date": "2004-02-06",
+   "title": "Arrêté nº 29/MDA/DPV du 6 février 2004 portant modalités d'application de l'arrêté n° 26/MDA/DVP, fixant les taux, mode de recouvrement et de répartition des droits de contrôles phytosanitaires des végétaux et des produits végétaux à l’importation et à l'exportation.",
+   "source": "https://faolex.fao.org/docs/pdf/ner95273.pdf",
+   "record": "https://faolex.fao.org/en/documents/LEX-FAOC095273/arrete-n-29-mda-dpv-du-6-fevrier-2004-portant-modalites-d-ap-ner-2004",
+   "text_layer": "publisher-ocr",
+   "articles": 3
+  },
+  {
    "id": "arretes/2004/46-pm-se-cnedd-modifiant-et-completant-l-arrete-no-53-pm-se",
    "kind": "arrete",
    "number": "46/PM/SE/CNEDD",
@@ -24,6 +299,17 @@
    "record": "https://faolex.fao.org/en/documents/LEX-FAOC064949/arrete-n-46-pm-se-cnedd-du-23-avril-2004-modifiant-et-comple-ner-2004",
    "text_layer": "publisher-ocr",
    "articles": 12
+  },
+  {
+   "id": "arretes/2004/51-mda-portant-creation-et-organisation-du-projet-de",
+   "kind": "arrete",
+   "number": "51/MDA",
+   "date": "2004-03-10",
+   "title": "Arrêté nº 51/MDA du 10 mars 2004, portant création et organisation du projet de développement rural intégré de Kéhéhé-Tabalak.",
+   "source": "https://faolex.fao.org/docs/pdf/ner95234.pdf",
+   "record": "https://faolex.fao.org/en/documents/LEX-FAOC095234/arrete-n-51-mda-du-10-mars-2004-portant-creation-et-organisa-ner-2004",
+   "text_layer": "publisher-ocr",
+   "articles": 8
   },
   {
    "id": "arretes/2004/55-mda-daera-portant-creation-et-organisation-d-une-brigade-d",
@@ -48,6 +334,28 @@
    "articles": 7
   },
   {
+   "id": "arretes/2004/66-mda-portant-creation-attributions-composition-et",
+   "kind": "arrete",
+   "number": "66/MDA",
+   "date": "2004-03-29",
+   "title": "Arrêté nº 66/MDA du 29 mars 2004, portant création, attributions, composition et fonctionnement du comité de pilotage chargé de la mise en oeuvre du processus de relance de la production cotonnière.",
+   "source": "https://faolex.fao.org/docs/pdf/ner95233.pdf",
+   "record": "https://faolex.fao.org/en/documents/LEX-FAOC095233/arrete-n-66-mda-du-29-mars-2004-portant-creation-attribution-ner-2004",
+   "text_layer": "publisher-ocr",
+   "articles": 9
+  },
+  {
+   "id": "arretes/2004/67-mhe-lcd-sg-portant-creation-et-nomination-des-membres-de-la",
+   "kind": "arrete",
+   "number": "67/MHE/LCD/SG",
+   "date": "2004-07-07",
+   "title": "Arrêté nº 67/MHE/LCD/SG du 7 juillet 2004, portant création et nomination des membres de la commission d'analyse des dossiers techniques des travaux hydrauliques objets des marchés publics.",
+   "source": "https://faolex.fao.org/docs/pdf/ner95270.pdf",
+   "record": "https://faolex.fao.org/en/documents/LEX-FAOC095270/arrete-n-67-mhe-lcd-sg-du-7-juillet-2004-portant-creation-et-ner-2004",
+   "text_layer": "publisher-ocr",
+   "articles": 5
+  },
+  {
    "id": "arretes/2004/70-mme-dm-definissant-le-code-de-conduite-sur-les-sites-d",
    "kind": "arrete",
    "number": "70/MME/DM",
@@ -57,6 +365,28 @@
    "record": "https://faolex.fao.org/en/documents/LEX-FAOC064954/arrete-n-70-mme-dm-du-05-aout-2004-definissant-le-code-de-co-ner-2004",
    "text_layer": "publisher-ocr",
    "articles": 20
+  },
+  {
+   "id": "arretes/2004/82-mhe-lcd-cab-portant-creation-attributions-composition-et",
+   "kind": "arrete",
+   "number": "82/MHE/LCD/CAB",
+   "date": "2004-09-23",
+   "title": "Arrêté nº 82/MHE/LCD/CAB du 23 septembre 2004, portant création, attributions, composition et fonctionnement du comité de pilotage conjoint du programme de lutte contre l’ensablement du fleuve Niger et du projet FEM/ABN : « inversion des tendances a la dégradation des terres et des eaux dans le bassin du Niger\".",
+   "source": "https://faolex.fao.org/docs/pdf/ner66133.pdf",
+   "record": "https://faolex.fao.org/en/documents/LEX-FAOC066133/arrete-n-82-mhe-lcd-cab-du-23-septembre-2004-portant-creatio-ner-2004",
+   "text_layer": "publisher-ocr",
+   "articles": 7
+  },
+  {
+   "id": "arretes/2004/89-mda-dep-portant-creation-et-attributions-de-la-cellule",
+   "kind": "arrete",
+   "number": "89/MDA/DEP",
+   "date": "2004-04-23",
+   "title": "Arrêté nº 89/MDA/DEP du 23 avril 2004, portant création et attributions de la cellule crédit rural.",
+   "source": "https://faolex.fao.org/docs/pdf/ner95231.pdf",
+   "record": "https://faolex.fao.org/en/documents/LEX-FAOC095231/arrete-n-89-mda-dep-du-23-avril-2004-portant-creation-et-att-ner-2004",
+   "text_layer": "publisher-ocr",
+   "articles": 6
   },
   {
    "id": "arretes/2005/0073pm-portant-creation-attributions-composition-et",
