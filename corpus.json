@@ -1841,6 +1841,28 @@
    "articles": 42
   },
   {
+   "id": "decrets/2001/2001-194-prn-mj-portant-obligations-des-membres-de-la-cour",
+   "kind": "decret",
+   "number": "2001-194/PRN/MJ",
+   "date": "2001-11-02",
+   "title": "DECRET N° 2001-194/PRN/MJ du 2 novembre 2001 portant obligations des membres de la Cour Constitutionnelle",
+   "source": "http://cour-constitutionnelle-niger.org/documents/decret_obligations.pdf",
+   "record": "http://cour-constitutionnelle-niger.org/documents/decret_obligations.pdf",
+   "text_layer": "born-digital",
+   "articles": 6
+  },
+  {
+   "id": "decrets/2001/2001-195-prn-mj-determinant-les-caracteristiques-des-costumes-d",
+   "kind": "decret",
+   "number": "2001-195/PRN/MJ",
+   "date": "2001-11-02",
+   "title": "DECRET N° 2001-195/PRN/MJ du 2 novembre 2001 déterminant les caractéristiques des costumes d'audience des membres de la Cour Constitutionnelle",
+   "source": "http://cour-constitutionnelle-niger.org/documents/decret_costume1.pdf",
+   "record": "http://cour-constitutionnelle-niger.org/documents/decret_costume1.pdf",
+   "text_layer": "born-digital",
+   "articles": 3
+  },
+  {
    "id": "decrets/2001/2001-202-prn-mhe-lcd-determinant-les-attributions-du-ministre-de-l",
    "kind": "decret",
    "number": "2001-202/PRN/MHE/LCD",
@@ -3115,6 +3137,28 @@
    "record": "https://faolex.fao.org/en/documents/LEX-FAOC169345/loi-n-2017-27-du-28-avril-2017-portant-bail-emphyteotique-ner-2017",
    "text_layer": "publisher-ocr",
    "articles": 14
+  },
+  {
+   "id": "lois/2017/2017-50-portant-revision-des-articles-47-48-53-59-85-et",
+   "kind": "loi",
+   "number": "2017-50",
+   "date": "2017-06-06",
+   "title": "LOI N° 2017-50 du 06 juin 2017 portant révision des articles 47, 48, 53, 59, 85 et 99 de la Constitution du 25 novembre 2010",
+   "source": "http://cour-constitutionnelle-niger.org/documents/Loi_revision_certains_articles_de_la_Constitution.pdf",
+   "record": "http://cour-constitutionnelle-niger.org/documents/Loi_revision_certains_articles_de_la_Constitution.pdf",
+   "text_layer": "born-digital",
+   "articles": 4
+  },
+  {
+   "id": "lois/2017/2017-56-portant-revision-des-articles-84-et-173-de-la",
+   "kind": "loi",
+   "number": "2017-56",
+   "date": "2017-06-08",
+   "title": "LOI N° 2017-56 du 08 juin 2017 portant révision des articles 84 et 173 de la Constitution du 25 novembre 2010",
+   "source": "http://cour-constitutionnelle-niger.org/documents/Loi_revision_articles_84_et_173_de_la_Constitution_du_25_novembre_2010_Seance_de_l_Assemblee_Nle_du_06_juin_2017.pdf",
+   "record": "http://cour-constitutionnelle-niger.org/documents/Loi_revision_articles_84_et_173_de_la_Constitution_du_25_novembre_2010_Seance_de_l_Assemblee_Nle_du_06_juin_2017.pdf",
+   "text_layer": "born-digital",
+   "articles": 3
   },
   {
    "id": "lois/2018/2018-20-portant-regime-des-organisations",
