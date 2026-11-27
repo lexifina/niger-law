@@ -1423,6 +1423,17 @@
    "articles": 19
   },
   {
+   "id": "arretes/2021/334-mag-sg-dl-portant-organisation-des-services-de-l",
+   "kind": "arrete",
+   "number": "334/MAG/SG/DL",
+   "date": "2021-10-28",
+   "title": "Arrêté n° 334/MAG/SG/DL du 28 octobre 2021 portant organisation des Services de l'Administration Centrale du Ministère de l'Agriculture et déterminant les attributions de leurs responsables ;",
+   "source": "https://www.agriculture.gouv.ne/wp-content/uploads/2023/07/Arrete-divions-DL-1.pdf",
+   "record": "https://www.agriculture.gouv.ne/wp-content/uploads/2023/07/Arrete-divions-DL-1.pdf",
+   "text_layer": "publisher-ocr",
+   "articles": 14
+  },
+  {
    "id": "arretes/2022/0378-mag-sg-dl-dggr-portant-organisation-des-divisions-services-et",
    "kind": "arrete",
    "number": "0378/MAG/SG/DL/DGGR",
@@ -2534,6 +2545,17 @@
    "articles": 82
   },
   {
+   "id": "decrets/2018/2018-475-prn",
+   "kind": "decret",
+   "number": "2018-475/PRN",
+   "date": "2018-07-09",
+   "title": "Décret N° 2018-475/PRN du 09 juillet 2018;",
+   "source": "https://hydraulique.gouv.ne/wp-content/uploads/2025/07/Arrete-Exercice-Prive-GDISS_2019.pdf",
+   "record": "https://hydraulique.gouv.ne/wp-content/uploads/2025/07/Arrete-Exercice-Prive-GDISS_2019.pdf",
+   "text_layer": "publisher-ocr",
+   "articles": 9
+  },
+  {
    "id": "decrets/2018/2018-496-prn-pm-portant-code-dethique-et-de-deontologie-des",
    "kind": "decret",
    "number": "2018-496/PRN/PM",
@@ -2609,6 +2631,17 @@
    "record": "https://faolex.fao.org/en/documents/LEX-FAOC225981/decret-n-2020-670-prn-mi-sp-d-acrimpf-pe-portant-modalites-d-ner-2020",
    "text_layer": "publisher-ocr",
    "articles": 5
+  },
+  {
+   "id": "decrets/2021/02021-235-prn-portant-nomination-du-premier-ministre-chef-du",
+   "kind": "decret",
+   "number": "02021-235/PRN",
+   "date": "2021-04-03",
+   "title": "Décret n02021-235/PRN du 03 avril 2021 portant nomination du Premier Ministre, Chef du Gouvernement; le décret n02021-238/PRN du 07 avril 2021 portant nomination des membres du Gouvernement, modifié et complété par le décret n02021-286/PRN du 03 mai 2021 ; le décret n\" 2021-289/PRN du 04",
+   "source": "https://hcintic.impots.gouv.ne/media/telech/ARRETE%20N528%20MF%20DGI%20du%2006%2012%202021.pdf",
+   "record": "https://hcintic.impots.gouv.ne/media/telech/ARRETE%20N528%20MF%20DGI%20du%2006%2012%202021.pdf",
+   "text_layer": "publisher-ocr",
+   "articles": 2
   },
   {
    "id": "decrets/2021/2021-161-prn-mesu-dd-determinant-les-modalites-de-gestion-des-produits",
@@ -3654,6 +3687,17 @@
    "record": "https://faolex.fao.org/en/documents/LEX-FAOC248628/ordonnance-n-2011-22-du-23-fevrier-2011-portant-charte-d-acc-ner-2011",
    "text_layer": "born-digital",
    "articles": 34
+  },
+  {
+   "id": "ordonnances/2024/2024-59-portant-loi-de-finances-pour-lannee-budgetaire",
+   "kind": "ordonnance",
+   "number": "2024-59",
+   "date": "2024-12-31",
+   "title": "ORDONNANCE N° 2024-59 du 31 décembre 2024 portant loi de finances pour l’année budgétaire 2025",
+   "source": "https://impots.gouv.ne/media/loi/ORDONNANCE%20N%202024-59%20LOI%20DE%20FINANCES%202025..pdf",
+   "record": "https://impots.gouv.ne/media/loi/ORDONNANCE%20N%202024-59%20LOI%20DE%20FINANCES%202025..pdf",
+   "text_layer": "born-digital",
+   "articles": 2
   }
  ]
 }
